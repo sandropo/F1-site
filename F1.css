@@ -11,27 +11,41 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #17191e;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
 /* ── Body ── */
 body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  padding: 15px;
-  background: linear-gradient(135deg, #CC0000 0%, #990000 100%);
+  max-width: 1600px;
+  padding: 20px clamp(12px, 2.4vw, 36px);
+  background: radial-gradient(ellipse at top, #292d35 0%, #17191e 58%);
   background-attachment: fixed;
-  margin: 0;
+  margin: 0 auto;
   color: #222;
+  line-height: 1.65;
 }
 
 /* ── Header ── */
 header {
-  padding: 20px 16px 16px;
+  position: relative;
+  padding: 24px 18px 20px;
   text-align: center;
-  background: linear-gradient(180deg, #b30000 0%, #CC0000 60%, #aa0000 100%);
+  background: linear-gradient(145deg, #17191e 0%, #292d35 100%);
   color: #ffffff;
-  font-style: italic;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border-radius: 10px 10px 0 0;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+  border-bottom: 4px solid #CC0000;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.24);
 }
 
 header img {
@@ -58,18 +72,16 @@ header h1 {
 
 /* ── Navigation Menu (glassmorphism pill) ── */
 menu {
-  margin: 10px 0 15px 0;
+  margin: 10px 0 18px;
   padding: 0;
-  background: rgba(15, 15, 15, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(30, 32, 38, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-radius: 25px;
+  border-radius: 12px;
   z-index: 1000;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.4);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
 menu ul {
@@ -91,15 +103,19 @@ menu li {
 
 menu .btn,
 menu .btn2 {
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 20px;
-  height: 2.8em;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  min-height: 2.8em;
+  height: auto;
   font-size: 14px;
   font-weight: bold;
-  background-color: rgba(204, 0, 0, 0.75);
+  background-color: transparent;
   cursor: pointer;
   padding: 0;
-  transition: all 0.25s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,10 +123,10 @@ menu .btn2 {
 
 menu .btn:hover,
 menu .btn2:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background: linear-gradient(145deg, #492328, #302126);
+  border-color: rgba(255, 119, 119, 0.55);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.22), inset 0 -2px #ff7777;
 }
 
 menu ul li a {
@@ -123,78 +139,88 @@ menu ul li a {
   height: 100%;
   align-items: center;
   justify-content: center;
-  font-size: 13.5px;
+  font-size: 13px;
+  line-height: 1.25;
   transition: color 0.25s ease;
 }
 
 menu .btn:hover a,
 menu .btn2:hover a {
-  color: #CC0000;
+  color: #ffb3b3;
   font-weight: bold;
 }
 
 menu .btn.active,
 menu .btn2.active {
-  background-color: #ffffff;
+  background: linear-gradient(145deg, #e00000, #a90000);
+  border-color: rgba(255,255,255,0.28);
+  box-shadow: 0 3px 10px rgba(204,0,0,0.3), inset 0 -2px #ffb3b3;
 }
 
 menu .btn.active a,
 menu .btn2.active a {
-  color: #CC0000;
+  color: #ffffff;
   font-weight: bold;
+}
+
+menu a:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 3px;
 }
 
 /* ── Article ── */
 article {
+  border: 1px solid #e6e7ea;
   border-top: 4px solid #CC0000;
-  border-right: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
-  border-left: 1px solid #e8e8e8;
-  padding: 24px;
+  padding: clamp(18px, 2.4vw, 32px);
   margin-top: 0;
   background-color: #ffffff;
   float: left;
   width: 75%;
   text-align: justify;
-  line-height: 1.6;
+  line-height: 1.75;
   border-radius: 10px;
-  min-height: 600px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  min-height: 420px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.14);
 }
 
 /* ── Aside ── */
 aside {
-  padding: 20px;
+  padding: 22px;
   margin-top: 0;
   float: left;
   width: 25%;
   background-color: #ffffff;
   border-top: 4px solid #CC0000;
-  border-right: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #e6e7ea;
+  border-bottom: 1px solid #e6e7ea;
   border-left: none;
   text-align: justify;
-  line-height: 1.5;
+  line-height: 1.7;
   border-radius: 10px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.12);
 }
 
 /* ── Article Typography ── */
 article p {
-  padding-left: 5px;
-  font-size: 15px;
+  padding-left: 0;
+  font-size: 15.5px;
   color: #2b2b2b;
+  margin: 0 0 1.1em;
 }
 
 article h2 {
-  margin-top: 35px;
-  margin-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 12px;
   color: #CC0000;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 1px solid #e6e7ea;
   border-left: 4px solid #CC0000;
   padding-bottom: 6px;
   padding-left: 12px;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
+  line-height: 1.25;
   font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
 }
@@ -214,7 +240,17 @@ article img {
   padding-bottom: 12px;
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 5px 16px rgba(0,0,0,0.12);
+}
+
+article a {
+  color: #a30000;
+  text-underline-offset: 3px;
+}
+
+article a:hover {
+  color: #6f0000;
 }
 
 aside h3 {
@@ -425,6 +461,70 @@ video {
   background: #990000;
 }
 
+/* ── Season finale feature cards ── */
+.finale-list {
+  display: grid;
+  gap: 18px;
+  margin: 24px 0;
+}
+
+.finale-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 34%) 1fr;
+  gap: 20px;
+  align-items: start;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-left: 5px solid #CC0000;
+  border-radius: 9px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+}
+
+.finale-card figure {
+  margin: 0;
+}
+
+.finale-card img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+  background: #111;
+  border-radius: 6px;
+}
+
+.finale-card figcaption {
+  margin-top: 6px;
+  color: #666;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.finale-card h2 {
+  margin: 0 0 8px;
+  text-align: left;
+}
+
+.finale-card p {
+  margin: 0 0 10px;
+}
+
+.finale-card .season-card-btn {
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 700px) {
+  .finale-card {
+    grid-template-columns: 1fr;
+  }
+
+  .finale-card img {
+    height: auto;
+    max-height: 260px;
+  }
+}
+
 /* ── Season Navigation Bar ── */
 .nav-season-bar {
   display: flex;
@@ -612,8 +712,8 @@ video {
 
 /* ── Footer (carbon fiber feel) ── */
 footer {
-  background: #0a0a0a;
-  padding: 22px;
+  background: #202228;
+  padding: 24px;
   text-align: center;
   color: #dddddd;
   clear: both;
@@ -621,7 +721,7 @@ footer {
   font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 25px;
   border-top: 4px solid #CC0000;
-  border-radius: 0 0 10px 10px;
+  border-radius: 4px 4px 12px 12px;
 }
 
 footer a {
@@ -665,36 +765,192 @@ footer a:hover {
   border: 1px solid #555555;
 }
 
+/* ── Persistent color-theme switch ── */
+.theme-switch {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 38px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.28);
+  border-radius: 999px;
+  background: rgba(15,17,21,0.82);
+  color: #ffffff;
+  font: 600 12px/1 'Inter', Arial, sans-serif;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.theme-switch-track {
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 22px;
+  flex: 0 0 38px;
+  border-radius: 999px;
+  background: #CC0000;
+  transition: background-color 0.2s ease;
+}
+
+.theme-switch-track::after {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  content: "";
+  transition: transform 0.2s ease;
+}
+
+.theme-switch[aria-checked="false"] .theme-switch-track {
+  background: #767b84;
+}
+
+.theme-switch[aria-checked="false"] .theme-switch-track::after {
+  transform: translateX(16px);
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding-top: 58px;
+  }
+
+  .theme-switch {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* The light theme restores the site's original red gradient palette. */
+html[data-theme="light"] {
+  color-scheme: light;
+  background-color: #ffffff;
+}
+
+html[data-theme="light"] body {
+  background: linear-gradient(135deg, #CC0000 0%, #990000 100%);
+  background-attachment: fixed;
+}
+
+html[data-theme="light"] header {
+  padding: 20px 16px 16px;
+  background: linear-gradient(180deg, #b30000 0%, #CC0000 60%, #aa0000 100%);
+  font-style: italic;
+  margin-bottom: 5px;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+}
+
+html[data-theme="light"] menu {
+  background: rgba(15,15,15,0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 25px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.4);
+}
+
+html[data-theme="light"] menu .btn,
+html[data-theme="light"] menu .btn2 {
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+  min-height: 2.8em;
+  background-color: rgba(204,0,0,0.75);
+}
+
+html[data-theme="light"] menu .btn:hover,
+html[data-theme="light"] menu .btn2:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3), inset 0 -2px #CC0000;
+}
+
+html[data-theme="light"] menu .btn:hover a,
+html[data-theme="light"] menu .btn2:hover a {
+  color: #CC0000;
+}
+
+html[data-theme="light"] menu .btn.active,
+html[data-theme="light"] menu .btn2.active {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.16), inset 0 -2px #CC0000;
+}
+
+html[data-theme="light"] menu .btn.active a,
+html[data-theme="light"] menu .btn2.active a {
+  color: #CC0000;
+}
+
+html[data-theme="light"] article,
+html[data-theme="light"] aside {
+  background-color: #ffffff;
+}
+
+html[data-theme="light"] footer {
+  background: #0a0a0a;
+  border-radius: 0 0 10px 10px;
+}
+
 /* ── Responsive — Tablet (≤900px) ── */
 @media screen and (max-width: 900px) {
   article {
     width: 100%;
     float: none;
+    border: 1px solid #e6e7ea;
     border-top: 4px solid #CC0000;
-    border-right: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
-    border-left: 1px solid #e8e8e8;
     margin-bottom: 15px;
   }
 
   aside {
     width: 100%;
     float: none;
+    border: 1px solid #e6e7ea;
     border-top: 4px solid #CC0000;
-    border-right: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
-    border-left: 1px solid #e8e8e8;
     margin-top: 15px;
   }
 }
 
 /* ── Responsive — Mobile (≤600px) ── */
 @media screen and (max-width: 600px) {
+  html[data-theme="light"] header {
+    padding-top: 58px;
+  }
+
   menu .btn,
   menu .btn2 {
     font-size: 12px;
-    width: 48%;
+    width: 100%;
     margin-bottom: 4px;
+  }
+
+  menu ul {
+    align-items: stretch;
+  }
+
+  menu li,
+  menu .btn,
+  menu .btn2 {
+    width: 100%;
+  }
+
+  article {
+    text-align: left;
+  }
+
+  article img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 12px 0;
   }
 
   .news-card {
@@ -716,5 +972,16 @@ footer a:hover {
 
   .karting-profile-card {
     flex-direction: column;
+  }
+
+  footer {
+    padding: 20px 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  menu .btn,
+  menu .btn2 {
+    transition: none;
   }
 }

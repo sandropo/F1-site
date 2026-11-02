@@ -11,6 +11,13 @@
   box-sizing: border-box;
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
 /* ── Body ── */
 body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
