@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background:rgb(212, 0, 255);
+}
+menu{
+  overflow: hidden;
+  background-color: #ff0000;
+}
+menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: red;
+  }
+ menu li {
+    float: left;
+  }
+  menu ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  header {
+    text-align: center;
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+  }
+article{  
+  background-color: #ffffff;
+  float: left;
+  width: 75%;
+}
+aside {
+  float: left;
+  width: 25%;
+  background-color: #ffffff;
+}
+footer {
+  background-color: #000000;
+  text-align: center;
+  color: white;
+  width:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Formule minori</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="F1.css">
+    </head>
+
+     <body>
+    
+      <header>
+          <a href="Home.html">
+          <img src="f1_logo.png" alt="F1 Logo" ></a>
+          <h1>Formule minori</h1>
+      </header>
+       
+      <menu>
+            <ul>
+              <li><button class="btn"><a href="Home.html">Home</a></button></li>
+              <li><button class="btn"><a href="La%20nuova%20F1.html">La nuova F1</a></button></li>
+              <li><button class="btn"><a href="Calendario%202024.html">Calendario 2024</a></button></li>
+              <li><button class="btn"><a href="Albo%20d'oro.html">Albo d'oro</a></button></li>
+              <li><button class="btn"><a href="Ultime%20stagioni.html">Ultime stagioni</a></button></li>
+              <li><button class="btn"><a href="Stagioni%20passate.html">Stagioni passate</a></button></li>
+              <li><button class="btn"><a href="Quando%20nasce.html">Quando nasce</a></button></li>
+              <li><button class="btn2 active"><a href="Formule%20minori.html">Formule minori</a></button></li>
+            </ul>
+      </menu>
+       
+      <article>
+                <h2>IL LUNGO PERCORSO DEI CAMPIONI</h2>
+                <img src="copertina-top-10-piloti-formula-2020.png" alt="formula 2" style width="60%" hspace="20" >
+                <p>La Formula 1, massima categoria del motorsport, è il sogno di ogni giovane pilota. Ma il percorso per raggiungere la vetta è lungo e tortuoso, e richiede talento, dedizione e una solida preparazione. Un percorso che, per la maggior parte dei campioni che oggi vediamo sfrecciare sui circuiti di tutto il mondo, ha inizio nelle categorie minori, in particolare nel mondo del karting. Il karting è spesso definito la "palestra" dei piloti di Formula 1. È in questi piccoli bolidi che i futuri campioni muovono i primi passi, imparando a gestire la macchina, a trovare i limiti di aderenza e a sviluppare un feeling con la vettura. Il karting permette di acquisire le basi fondamentali della guida, come la traiettoria, la frenata e l'accelerazione, in un ambiente controllato e sicuro. Inoltre, le competizioni kartingistiche offrono ai giovani piloti l'opportunità di confrontarsi con avversari di pari età, stimolando la competitività e la crescita personale. Dopo il karting, i giovani piloti si confrontano con le formule minori, come la Formula 3, la Formula 2 e la Formula E. Queste categorie rappresentano un gradino intermedio tra il karting e la Formula 1, e permettono ai piloti di affinare le proprie abilità e di adattarsi a vetture sempre più performanti e complesse. Le formule minori offrono ai giovani talenti l'opportunità di mettersi in mostra davanti agli occhi degli scout delle scuderie di Formula 1. I team di Formula 1, infatti, seguono con grande attenzione i campionati minori, alla ricerca di giovani promesse da inserire nei loro programmi di sviluppo. Oltre al talento e alla passione, un pilota di Formula 1 deve possedere una preparazione fisica e mentale di altissimo livello. La Formula 1 è uno sport estenuante, che richiede una grande forza fisica e una concentrazione mentale costante. Per questo motivo, i giovani piloti devono sottoporsi a un allenamento fisico rigoroso e a un percorso di preparazione psicologica che li aiuti a gestire la pressione e a mantenere la calma anche nelle situazioni più difficili. Il percorso che porta dalla minienduro alla Formula 1 è lungo e impegnativo, e non tutti i piloti riescono a raggiungere il traguardo. Sono molti i fattori che influenzano il successo di un pilota, tra cui il talento innato, il supporto economico, le opportunità che si presentano e la capacità di adattarsi ai cambiamenti. Tuttavia, è innegabile che le formule minori rappresentano un passaggio fondamentale per chi sogna di diventare un pilota di Formula 1.</p>
+      </article>
+
+      <aside>
+                <h3>Regole uguali per tutti</h3>
+                <img src="rsz_malc1448.png" alt="Leclerc f2" style width="100%">
+                <p>Il format dei weekend di gara in Formula 2 e Formula 3 è molto simile a quello della Formula 1, ma presenta alcune differenze. Le differenze rispetto alla Formula 1 sono:
+                  <ul>
+                    <li>Durata delle gare, le gare di Formula 2 e Formula 3 sono generalmente più brevi rispetto a quelle di Formula 1.</li>
+                    <li>Numero di gomme, i piloti di Formula 2 e Formula 3 hanno a disposizione un numero limitato di gomme per tutto il weekend di gara.</li>
+                    <li>Il regolamento tecnico delle formule minori è meno complesso rispetto a quello della Formula 1.</li>
+                    <li>I team di Formula 2 e Formula 3 hanno budget inferiori rispetto ai team di Formula 1.</li>
+                </ul>
+                </p>
+      </aside>
+
+      <footer>
+                <address>
+                  Liceo Scientifico e Linguistico Statale Archimede<br>
+                  Scienze applicate<br>
+                  classe IV i<br>
+                  <a href="https://www.instagram.com/alessandromafodda/" target="_blank">
+                    Alessandro Mafodda<br></a>
+                </address>
+
+       </footer>
+
+      </body>
+      
+</html>

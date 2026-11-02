@@ -1,0 +1,1313 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Albo d'oro</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Albo d'oro.css">
+    </head>
+     
+     <body>
+          
+      <header>
+          <a href="Home.html">
+          <img src="f1_logo.png" alt="F1 Logo" ></a>
+          <h1>Albo d'oro</h1>
+       </header>
+          
+      <menu>
+            <ul>
+              <li><button class="btn"><a href="Home.html">Home</a></button></li>
+              <li><button class="btn"><a href="La%20nuova%20F1.html">La nuova F1</a></button></li>
+              <li><button class="btn"><a href="Calendario%202024.html">Calendario 2024</a></button></li>
+              <li><button class="btn active"><a href="Albo%20d'oro.html">Albo d'oro</a></button></li>
+              <li><button class="btn"><a href="Ultime%20stagioni.html">Ultime stagioni</a></button></li>
+              <li><button class="btn"><a href="Stagioni%20passate.html">Stagioni passate</a></button></li>
+              <li><button class="btn"><a href="Quando%20nasce.html">Quando nasce</a></button></li>
+              <li><button class="btn2"><a href="Formule%20minori.html">Formule minori</a></button></li>
+            </ul>
+      </menu>
+            
+      <article>
+              <h2>ALBO D'ORO PILOTI</h2>
+              <table style="width:90%">
+                  <tr>
+                    <th>Anno</th>
+                    <th>Pilota</th> 
+                    <th>Nazionalità</th>
+                    <th>Scuderia</th>
+                  </tr>
+
+                  <cinquanta>                    
+                  <tr>
+                    <td>1950</td>
+                    <td>Nino Farina</td>
+                    <td image-align:center ><img src="Emojione_1F1EE-1F1F9.svg.png" ></td>
+                    <td>Alfa Romeo</td>
+                  </tr>
+
+                  <tr>
+                    <td>1951</td>
+                    <td>Juan Manuel Fangio</td>
+                    <td><img src="Emojione_1F1E6-1F1F7.svg.png"></td>
+                    <td>Alfa Romeo</td>
+                  </tr>
+
+                  <tr>
+                    <td>1952</td>
+                    <td>Alberto Ascari</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>1953</td>
+                    <td>Alberto Ascari</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>1954</td>
+                    <td>Juan Manuel Fangio</td>
+                    <td><img src="Emojione_1F1E6-1F1F7.svg.png"></td>
+                    <td>Maserati/Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td>1955</td>
+                    <td>Juan Manuel Fangio</td>
+                    <td><img src="Emojione_1F1E6-1F1F7.svg.png"></td>
+                    <td>Mercedes</td>
+                    </tr>
+
+                   <tr>
+                    <td>1956</td>
+                    <td>Juan Manuel Fangio</td>
+                    <td><img src="Emojione_1F1E6-1F1F7.svg.png"></td>
+                      <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                      <td>1957</td>
+                      <td>Juan Manuel Fangio</td>
+                      <td><img src="Emojione_1F1E6-1F1F7.svg.png"></td>
+                      <td>Maserati</td>
+                  </tr>
+
+                  <tr>
+                    <td>1958</td>
+                    <td>Mike Hawthorn</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>1959</td>
+                    <td>Jack Brabham</td>
+                    <td><img src="Emojione_1F1E6-1F1FA.svg.png"></td>
+                    <td>Cooper</td>
+                  </tr>
+                </cinquanta>
+
+                <sessanta>
+                  <tr>
+                    <td>1960</td>
+                    <td>Jack Brabham</td>
+                    <td><img src="Emojione_1F1E6-1F1FA.svg.png"></td>
+                    <td>Cooper</td>
+                  </tr>
+
+                  <tr>
+                    <td>1961</td>
+                    <td>Phil Hill</td>
+                    <td><img src="Emojione_1F1FA-1F1F8.svg.png"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>1962</td>
+                    <td>Graham Hill</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>BRM (British Racing Motors)</td>
+                  </tr>
+
+                  <tr>
+                    <td>1963</td>
+                    <td>Jim Clark</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Lotus</td>
+                  </tr>
+
+                  <tr>
+                      <td>1964</td>
+                      <td>John Surtees</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>1965</td>
+                    <td>Jim Clark</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Lotus</td>
+                  </tr>
+
+                  <tr>
+                    <td>1966</td>
+                    <td>Jack Brabham</td>
+                    <td><img src="Emojione_1F1E6-1F1FA.svg.png"></td>
+                    <td>Brabham</td>
+                  </tr>
+
+                  <tr>
+                    <td>1967</td>
+                    <td>Denny Hulme</td>
+                    <td><img src="Emojione_1F1F3-1F1FF.svg.png" style width="50"></td>
+                    <td>Brabham</td>
+                  </tr>
+
+                  <tr>
+                    <td>1968</td>
+                    <td>Graham Hill</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Lotus</td>
+                  </tr>
+
+                  <tr>
+                    <td>1969</td>
+                    <td>Jackie Stewart</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Matra</td>
+                  </tr>
+                </sessanta>
+
+                <settanta>
+                  <tr>
+                    <td>1970</td>
+                    <td>Jochen Rindt</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Lotus</td>
+                  </tr>
+
+                  <tr>
+                    <td>1971</td>
+                    <td>Jackie Stewart</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Tyrrell</td>
+                  </tr>
+
+                    <tr>
+                      <td>1972</td>
+                      <td> Emerson Fittipaldi</td>
+                      <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                      <td>Lotus</td>
+                    </tr>
+
+                    <tr>
+                      <td>1973</td>
+                      <td>Jackie Stewart</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Tyrrell</td>
+                  </tr>
+
+                  <tr>
+                    <td>1974</td>
+                      <td> Emerson Fittipaldi</td>
+                      <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                      <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1975</td>
+                    <td>Niki Lauda</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>1976</td>
+                    <td>James Hunt</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                 <tr>
+                    <td>1977</td>
+                    <td>Niki Lauda</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Ferrari</td>
+                 </tr>
+
+                  <tr>
+                    <td>1978</td>
+                    <td>Mario Andretti</td>
+                    <td><img src="Emojione_1F1FA-1F1F8.svg.png"></td>
+                    <td>Lotus</td>
+                  </tr>
+
+                  <tr>
+                    <td>1979</td>
+                    <td>Jody Scheckter</td>
+                    <td><img src="Emojione_1F1FF-1F1E6.svg.png" style width="50"></td>
+                    <td>Ferrari</td>
+                  </tr>
+                </settanta>
+
+                <ottanta>
+                    <tr>
+                      <td>1980</td>
+                      <td>Alan Jones</td>
+                      <td><img src="Emojione_1F1E6-1F1FA.svg.png"></td>
+                      <td>Williams</td>
+                    </tr>
+
+                    <tr>
+                      <td>1981</td>
+                      <td>Nelson Piquet</td>
+                      <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                      <td>Brabham</td>
+                  </tr>
+
+                  <tr>
+                    <td>1982</td>
+                    <td>Keke Rosberg</td>
+                    <td><img src="Emojione_1F1EB-1F1EE.svg.png" style width="50"></td>
+                    <td>Williams</td>
+                  </tr>
+
+                  <tr>
+                    <td>1983</td>
+                    <td>Nelson Piquet</td>
+                    <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                    <td>Brabham</td>
+                  </tr>
+
+                  <tr>
+                    <td>1984</td>
+                    <td>Niki Lauda</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1985</td>
+                    <td>Alain Prost</td>
+                    <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1986</td>
+                    <td>Alain Prost</td>
+                    <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1987</td>
+                    <td>Nelson Piquet</td>
+                    <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                    <td>Williams</td>
+                  </tr>
+
+                  <tr>
+                      <td>1988</td>
+                      <td>Ayrton Senna</td>
+                      <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                      <td>McLaren</td>
+                    </tr>
+
+                    <tr>
+                      <td>1989</td>
+                      <td>Alain Prost</td>
+                      <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                      <td>McLaren</td>
+                  </tr>
+                </ottanta>
+
+                <novanta>
+                  <tr>
+                    <td>1990</td>
+                    <td>Ayrton Senna</td>
+                    <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1991</td>
+                      <td>Ayrton Senna</td>
+                      <td><img src="Emojione_1F1E7-1F1F7.svg.png"></td>
+                      <td>McLaren</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>1992</td>
+                    <td>Nigel Mansell</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Williams</td>
+                  </tr>
+
+                  <tr>
+                    <td>1993</td>
+                      <td>Alain Prost</td>
+                      <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                      <td>Williams</td>
+                  </tr>
+
+                  <tr>
+                    <td>1994</td>
+                    <td>Michael Schumacher</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Benetton</td>
+                  </tr>
+
+                  <tr>
+                    <td>1995</td>
+                    <td>Michael Schumacher</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Benetton</td>
+                  </tr>
+
+                  <tr>
+                      <td>1996</td>
+                      <td>Damon Hill</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Williams</td>
+                   </tr>
+                   
+                  <tr>
+                      <td>1997</td>
+                      <td>Jacques Villeneuve</td>
+                      <td><img src="Emojione_1F1E8-1F1E6.svg.png" style width="50"></td>
+                      <td>Williams</td>
+                  </tr>
+
+                  <tr>
+                    <td>1998</td>
+                    <td>Mika Häkkinen</td>
+                    <td><img src="Emojione_1F1EB-1F1EE.svg.png" style width="50"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1999</td>
+                    <td>Mika Häkkinen</td>
+                    <td><img src="Emojione_1F1EB-1F1EE.svg.png" style width="50"></td>
+                    <td>McLaren</td>
+                  </tr>
+                </novanta>
+
+                <duemila>
+                  <tr>
+                    <td>2000</td>
+                    <td>Michael Schumacher</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Ferrari</td>
+                  </tr>
+                  
+                  <tr>  
+                    <td>2001</td>
+                    <td>Michael Schumacher</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>2002</td>
+                    <td>Michael Schumacher</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td>2003</td>
+                    <td>Michael Schumacher</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                      <td>2004</td>
+                      <td>Michael Schumacher</td>
+                      <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                      <td>Ferrari</td>
+                  </tr>
+                  
+                   <tr>
+                      <td>2005</td>
+                      <td>Fernando Alonso</td>
+                      <td><img src="Twemoji12_1f1ea-1f1e6.svg.png"></td>
+                      <td>Renault</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2006.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2006">2006 ?</a></td>
+                    <td>Fernando Alonso</td>
+                    <td><img src="Twemoji12_1f1ea-1f1e6.svg.png"></td>
+                    <td>Renault</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2007.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2007">2007 ?</a></td>
+                    <td>Kimi Räikkönen</td>
+                    <td><img src="Emojione_1F1EB-1F1EE.svg.png" style width="50"></td>
+                    <td>Ferrari</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2008.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2008">2008 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2009.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2009">2009 ?</a></td>
+                    <td>Jenson Button</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Brawn</td>
+                  </tr>
+                </duemila>
+
+                  <duemiladieci>
+                  <tr>
+                    <td><a href="stagione-2010.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2010">2010 ?</a></td>
+                    <td>Sebastian Vettel</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2011.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2011">2011 ?</a></td>
+                    <td>Sebastian Vettel</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2012.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2012">2012 ?</a></td>
+                    <td>Sebastian Vettel</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                 </tr>
+
+                  <tr>
+                    <td><a href="stagione-2013.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2013">2013 ?</a></td>
+                    <td>Sebastian Vettel</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2014.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2014">2014 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2015.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2015">2015 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2016.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2016">2016 ?</a></td>
+                    <td>Nico Rosberg</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png" style width="50"></td>
+                    <td>Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2017.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2017">2017 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2018.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2018">2018 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2019.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2019">2019 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mercedes</td>
+                  </tr>
+                </duemiladieci>
+
+                <duemilaventi>
+                  <tr>
+                    <td><a href="stagione-2020.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2020">2020 ?</a></td>
+                    <td>Lewis Hamilton</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mercedes</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2021.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2021">2021 ?</a></td>
+                    <td>Max Verstappen</td>
+                    <td><img src="Emojione_1F1F3-1F1F1.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2022.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2022">2022 ?</a></td>
+                    <td>Max Verstappen</td>
+                    <td><img src="Emojione_1F1F3-1F1F1.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2023.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2023">2023 ?</a></td>
+                    <td>Max Verstappen</td>
+                    <td><img src="Emojione_1F1F3-1F1F1.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2024.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2024">2024 ?</a></td>
+                    <td>Max Verstappen</td>
+                    <td><img src="Emojione_1F1F3-1F1F1.svg.png" style width="50"></td>
+                    <td>Red Bull</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2025.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2025">2025 ?</a></td>
+                    <td>Lando Norris</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png" style width="50"></td>
+                    <td>McLaren</td>
+                  </tr>
+
+                  <tr style="background-color: #d4edda; font-weight: bold;">
+                    <td><a href="stagione-2026.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2026">2026 ?</a></td>
+                    <td>Andrea Kimi Antonelli (Campione)</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png" style width="50"></td>
+                    <td>Mercedes</td>
+                  </tr>
+                </duemilaventi>
+                </table>
+
+              <h2>ALBO D'ORO COSTRUTTORI</h2>
+              <table style="width:90%">
+                  <tr>
+                    <th>Anno</th>
+                    <th>Costruttore</th> 
+                    <th>Modello</th>
+                    <th>Nazionalità</th>
+                    <th>Piloti</th>
+                  </tr>
+
+                  <cinquanta>
+                  <tr>
+                    <td>1958</td>
+                    <td>Vanwall</td>
+                    <td>VW5</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td> Stirling Moss, Tony Brooks</td>
+                  </tr>
+
+                  <tr>
+                    <td>1959</td>
+                    <td>Cooper</td>
+                    <td>T51</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jack Brabham, Stirling Moss, Bruce McLaren</td>
+                  </tr>
+                </cinquanta>
+
+                <sessanta>
+                  <tr>
+                    <td>1960</td>
+                    <td>Cooper</td>
+                    <td>T51</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jack Brabham, Bruce McLaren</td>
+                  </tr>
+
+                  <tr>
+                    <td>1961</td>
+                    <td>Ferrari</td>
+                    <td>156 F1</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Phil Hill, Wolfgang von Trips</td>
+                  </tr>
+
+                  <tr>
+                    <td>1962</td>
+                    <td>BRM </td>
+                    <td>P57</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Graham Hill</td>
+                  </tr>
+
+                  <tr>
+                    <td>1963</td>
+                    <td>Lotus</td>
+                    <td>25</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jim Clark</td>
+                  </tr>
+
+                  <tr>
+                      <td>1964</td>
+                      <td>Ferrari</td>
+                      <td>158</td>
+                      <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                      <td>John Surtees, Lorenzo Bandini</td>
+                  </tr>
+
+                  <tr>
+                    <td>1965</td>
+                    <td>Lotus</td>
+                    <td>33</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jim Clark</td>
+                  </tr>
+
+                  <tr>
+                    <td>1966</td>
+                    <td>Brabham</td>
+                    <td>BT20</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jack Brabham</td>
+                  </tr>
+
+                  <tr>
+                    <td>1967</td>
+                    <td>Brabham</td>
+                    <td>BT20</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Denny Hulme, Jack Brabham</td>
+                  </tr>
+
+                  <tr>
+                    <td>1968</td>
+                    <td>Lotus</td>
+                    <td>49B</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Graham Hill,  Jo Siffert, Jim Clark, Jackie Oliver</td>
+                  </tr>
+
+                  <tr>
+                    <td>1969</td>
+                    <td>Matra</td>
+                    <td>MS80</td>
+                    <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                    <td>Jackie Stewart, Jean-Pierre Beltoise</td>
+                  </tr>
+                </sessanta>
+
+                <settanta>
+                  <tr>
+                    <td>1970</td>
+                    <td>Lotus</td>
+                    <td>72C</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jochen Rindt, Emerson Fittipaldi, Graham Hill,  John Miles</td>
+                  </tr>
+
+                  <tr>
+                    <td>1971</td>
+                    <td>Tyrrell</td>
+                    <td>001</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jackie Stewart, François Cevert</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>1972</td>
+                    <td>Lotus</td>
+                    <td>72D</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td> Emerson Fittipaldi</td>
+                  </tr>
+
+                  <tr>
+                    <td>1973</td>
+                    <td>Lotus</td>
+                    <td>72E</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td> Emerson Fittipaldi, Ronnie Peterson</td>
+                  </tr>
+
+                  <tr>
+                    <td>1974</td>
+                    <td>McLaren</td>
+                    <td>M23</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td> Emerson Fittipaldi, Denny Hulme, Mike Hailwood</td>
+                  </tr>
+
+                  <tr>
+                    <td>1975</td>
+                    <td>Ferrari</td>
+                    <td>312 T</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Niki Lauda, Clay Regazzoni</td>
+                  </tr>
+
+                  <tr>
+                    <td>1976</td>
+                    <td>Ferrari</td>
+                    <td>312 T2</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Niki Lauda, Clay Regazzoni</td>
+                  </tr>
+
+                 <tr>
+                    <td>1976</td>
+                    <td>Ferrari</td>
+                    <td>312 T2</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Niki Lauda, Carlos Reutemann</td>
+                  </tr>
+
+                  <tr>
+                    <td>1978</td>
+                    <td>Lotus</td>
+                    <td>79</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mario Andretti, Ronnie Peterson</td>
+                  </tr>
+
+                  <tr>
+                    <td>1979</td>
+                    <td>Ferrari</td>
+                    <td>312 T4</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Jody Scheckter, Gilles Villeneuve</td>
+                  </tr>
+                </settanta>
+
+                <ottanta>
+                  <tr>
+                    <td>1980</td>
+                    <td>Williams</td>
+                    <td>FW07B</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Alan Jones, Carlos Reutemann</td>
+                  </tr>
+
+                  <tr>
+                    <td>1981</td>
+                    <td>Williams</td>
+                    <td>FW07C</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Alan Jones, Carlos Reutemann</td>
+                  </tr>
+
+                  <tr>
+                    <td>1982</td>
+                    <td>Ferrari</td>
+                    <td>126 C2</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png" ></td>
+                    <td>Gilles Villeneuve, Didier Pironi, Patrick Tambay, Mario Andretti</td>
+                  </tr>
+
+                  <tr>
+                    <td>1983</td>
+                    <td>Ferrari</td>
+                    <td>126 C3</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png" ></td>
+                    <td>Patrick Tambay, René Arnoux</td>
+                  </tr>
+
+                  <tr>
+                    <td>1984</td>
+                    <td>McLaren</td>
+                    <td>MP4/2</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Niki Lauda, Alain Prost</td>
+                  </tr>
+
+                  <tr>
+                    <td>1985</td>
+                    <td>McLaren</td>
+                    <td>MP4/2B</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Niki Lauda, Alain Prost</td>
+                  </tr>
+
+                  <tr>
+                    <td>1986</td>
+                    <td>Williams</td>
+                    <td>FW11</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Nigel Mansell, Nelson Piquet</td>
+                  </tr>
+
+                  <tr>
+                    <td>1987</td>
+                    <td>Williams</td>
+                    <td>FW11</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Nigel Mansell, Nelson Piquet</td>
+                  </tr>
+
+                  <tr>
+                      <td>1988</td>
+                      <td>McLaren</td>
+                      <td>MP4/4</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Ayrton Senna, Alain Prost</td>
+                  </tr>
+
+                  <tr>
+                    <td>1989</td>
+                    <td>McLaren</td>
+                    <td>MP4/5</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Ayrton Senna, Alain Prost</td>
+                  </tr>
+                </ottanta>
+
+                <novanta>
+                  <tr>
+                      <td>1990</td>
+                      <td>McLaren</td>
+                      <td>MP4/5B</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Ayrton Senna, Gerhard Berger</td>
+                  </tr>
+
+                  <tr>
+                    <td>1991</td>
+                    <td>McLaren</td>
+                    <td>MP4/6</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Ayrton Senna, Gerhard Berger</td>
+                  </tr>
+
+                  <tr>
+                    <td>1992</td>
+                    <td>Williams</td>
+                    <td>FW14B</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Nigel Mansell, Riccardo Patrese</td>
+                  </tr>
+
+                  <tr>
+                    <td>1993</td>
+                    <td>Williams</td>
+                    <td>FW14C</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Nigel Mansell, Alain Prost</td>
+                  </tr>
+
+                  <tr>
+                    <td>1994</td>
+                    <td>Williams</td>
+                    <td>FW16</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Nigel Mansell, David Coulthard, Damon Hill</td>
+                  </tr>
+
+                  <tr>
+                    <td>1995</td>
+                    <td>Benetton</td>
+                    <td>B195</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png" ></td>
+                    <td>Michael Schumacher, Johnny Herbert</td>
+                  </tr>
+
+                  <tr>
+                      <td>1996</td>
+                      <td>Williams</td>
+                      <td>FW16</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Damon Hill, Jacques Villeneuve</td>
+                   </tr>
+
+                  <tr>
+                      <td>1997</td>
+                      <td>Williams</td>
+                      <td>FW16</td>
+                      <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                      <td>Jacques Villeneuve, Heinz-Harald Frentzen</td>
+                  </tr>
+
+                  <tr>
+                    <td>1998</td>
+                    <td>McLaren</td>
+                    <td>MP4/13</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Mika Häkkinen, David Coulthard</td>
+                  </tr>
+
+                  <tr>
+                    <td>1999</td>
+                    <td>Ferrari</td>
+                    <td>F399</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Michael Schumacher, Eddie Irvine, Mika Salo</td>
+                  </tr>
+                </novanta>
+
+                <duemila>
+                  <tr>
+                    <td>2000</td>
+                    <td>Ferrari</td>
+                    <td>F1-2000</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Michael Schumacher, Rubens Barrichello</td>
+                  </tr>
+
+                  <tr>  
+                    <td>2001</td>
+                    <td>Ferrari</td>
+                    <td>F1-2001</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Michael Schumacher, Rubens Barrichello</td>
+                  </tr>
+
+                  <tr>
+                    <td>2002</td>
+                    <td>Ferrari</td>
+                    <td>F1-2002</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Michael Schumacher, Rubens Barrichello</td>
+                  </tr>
+
+                  <tr>
+                    <td>2003</td>
+                    <td>Ferrari</td>
+                    <td>F2003-GA</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Michael Schumacher, Rubens Barrichello</td>
+                  </tr>
+
+                  <tr>
+                    <td>2004</td>
+                    <td>Ferrari</td>
+                    <td>F1-2004</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td>Michael Schumacher, Rubens Barrichello</td>
+                  </tr>
+
+                   <tr>
+                      <td>2005</td>
+                      <td>Renault</td>
+                      <td>R25</td>
+                      <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                      <td>Fernando Alonso, Giancarlo Fisichella</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2006.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2006">2006 ?</a></td>
+                    <td>Renault</td>
+                    <td>R26</td>
+                    <td><img src="Emojione_1F1EB-1F1F7.svg.png"></td>
+                    <td>Fernando Alonso, Giancarlo Fisichella</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2007.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2007">2007 ?</a></td>
+                    <td>Ferrari</td>
+                    <td>F2007</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td> Kimi Räikkönen, Felipe Massa</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2008.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2008">2008 ?</a></td>
+                    <td>Ferrari</td>
+                    <td>F2008</td>
+                    <td><img src="Emojione_1F1EE-1F1F9.svg.png"></td>
+                    <td> Kimi Räikkönen, Felipe Massa</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2009.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2009">2009 ?</a></td>
+                    <td>Brawn</td>
+                    <td>BGP 001</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Jenson Button, Rubens Barrichello</td>
+                  </tr>
+                </duemila>
+
+                <duemiladieci>
+                  <tr>
+                    <td><a href="stagione-2010.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2010">2010 ?</a></td>
+                    <td>Red Bull</td>
+                    <td>RB6</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png" ></td>
+                    <td>Sebastian Vettel, Mark Webber</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2011.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2011">2011 ?</a></td>
+                    <td>Red Bull</td>
+                    <td>RB7</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png" ></td>
+                    <td>Sebastian Vettel, Mark Webber</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2012.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2012">2012 ?</a></td>
+                    <td>Red Bull</td>
+                    <td>RB8</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Sebastian Vettel, Mark Webber</td>
+                 </tr>
+
+                  <tr>
+                    <td><a href="stagione-2013.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2013">2013 ?</a></td>
+                    <td>Red Bull</td>
+                    <td>RB9</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Sebastian Vettel, Mark Webber</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2014.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2014">2014 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W05</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Nico Rosberg</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2015.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2015">2015 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W06</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Nico Rosberg</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2016.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2016">2016 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W07</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Nico Rosberg, Lewis Hamilton</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2017.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2017">2017 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W08</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Valtteri Bottas</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2018.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2018">2018 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W09</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Valtteri Bottas</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2019.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2019">2019 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W10</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Valtteri Bottas</td>
+                  </tr>
+                </duemiladieci>
+
+                <duemilaventi>
+                  <tr>
+                    <td><a href="stagione-2020.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2020">2020 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W11</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Valtteri Bottas</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2021.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2021">2021 ?</a></td>
+                    <td>Mercedes</td>
+                    <td>W12</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"  style width="50"></td>
+                    <td>Lewis Hamilton, Valtteri Bottas</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2022.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2022">2022 ?</a></td>
+                    <td>Red Bull</td>
+                    <td>RB18</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Max Verstappen, Sergio Pérez</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2023.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2023">2023 ?</a></td>
+                    <td>Red Bull</td>
+                    <td>RB19</td>
+                    <td><img src="Emojione_1F1E6-1F1F9.svg.png"></td>
+                    <td>Max Verstappen, Sergio Pérez</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2024.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2024">2024 ?</a></td>
+                    <td>McLaren</td>
+                    <td>MCL38</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Lando Norris, Oscar Piastri</td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="stagione-2025.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2025">2025 ?</a></td>
+                    <td>McLaren</td>
+                    <td>MCL39</td>
+                    <td><img src="Emojione_1F1EC-1F1E7.svg.png"></td>
+                    <td>Lando Norris, Oscar Piastri</td>
+                  </tr>
+
+                  <tr style="background-color: #e8f4f8;">
+                    <td><a href="stagione-2026.html" style="color: #d00000; font-weight: bold; text-decoration: none;" title="Vedi scheda stagione 2026">2026 ?</a></td>
+                    <td>Mercedes (leader)</td>
+                    <td>W17</td>
+                    <td><img src="Emojione_1F1E9-1F1EA.svg.png"></td>
+                    <td>Andrea Kimi Antonelli, George Russell</td>
+                  </tr>
+                </duemilaventi>
+                </table>
+
+      </article>
+
+      <aside>
+              <h2>Schumacher vs Hamilton</h2>
+              <img src="images.png" alt="lwis vs schumi" hspace="80"style width="60%" height="auto">
+              <p>Lewis Hamilton e Michael Schumacher sono due dei piloti più grandi nella storia della Formula 1, con 7 titoli mondiali ciascuno, ma con stili e approcci molto diversi.
+                Schumacher era famoso per la sua aggressività e precisione in pista, sempre pronto a spingere al limite, soprattutto in condizioni difficili. Aveva una capacità unica di sfruttare ogni opportunità, spesso portando la macchina oltre i suoi limiti. Hamilton, invece, è noto per la sua guida fluida e controllata. La sua capacità di adattarsi a diverse situazioni e di gestire perfettamente le gomme lo rende estremamente efficace, sia nelle qualifiche che in gara.
+                Schumacher era una figura più riservata, concentrata sul lavoro in team e sulla perfezione tecnica. Era meno presente nei media e preferiva mantenere un profilo più basso fuori dalle corse. Al contrario, Hamilton è diventato una vera e propria icona globale, visibile anche fuori dai circuiti. È coinvolto in numerose cause sociali, come la lotta per l’uguaglianza razziale e la sostenibilità ambientale, diventando una figura influente anche oltre il mondo dello sport.
+                Schumacher ha corso in un’epoca in cui le differenze tecniche tra le vetture erano spesso significative, e la sua abilità nel fornire feedback tecnico ha giocato un ruolo cruciale nel successo della Ferrari. Hamilton, d'altra parte, ha gareggiato in un'era più tecnologicamente avanzata, con regolamenti più stretti, ma è riuscito a trarre il massimo vantaggio dal dominio della Mercedes grazie al suo talento e alla sua costanza.
+                Schumacher ha lasciato un segno indelebile trasformando la Ferrari in una potenza imbattibile e stabilendo record che sembravano insuperabili. Tuttavia, Hamilton non solo ha eguagliato quei record, ma li ha superati in molti casi, diventando una figura di spicco della Formula 1 moderna, grazie al suo impegno dentro e fuori la pista.
+                Schumacher e Hamilton rappresentano due epoche diverse della Formula 1, con stili di guida e personalità distinti, ma entrambi hanno rivoluzionato lo sport a modo loro, lasciando un'eredità che li rende leggende del motorsport</p><br>
+              
+              <h2>Chi è il pilota più forte della storia della F1</h2>
+
+                <div class="opzioni">
+                  <button onclick="vote('Schumacher')">Michael Schumacher</button>
+                  <button onclick="vote('Hamilton')">Lewis Hamilton</button>
+                  <button onclick="vote('Fangio')">Juan Manuel Fangio</button>
+                  <button onclick="vote('Verstappen')">Max Verstappen</button>
+                  <button onclick="vote('Senna')">Ayrton Senna</button>
+                  <button onclick="vote('Prost')">Alain Prost</button>
+                  <button onclick="vote('Alonso')">Fernando Alonso</button>
+                  <button onclick="vote('Lauda')">Niki Lauda</button>
+                  <button onclick="vote('Stewart')">Sir Jackie Stewart</button>
+                  <button onclick="vote('Clark')">Jim Clark</button>
+              </div>
+
+              <div class="risultati">
+                  <h2>Risultati:</h2>
+                  <div>Michael Schumacher: <span id="schumacher-count">0 voti</span><div id="schumacher-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Lewis Hamilton: <span id="hamilton-count">0 voti</span><div id="hamilton-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Juan Manuel Fangio: <span id="fangio-count">0 voti</span><div id="fangio-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Max Verstappen: <span id="verstappen-count">0 voti</span><div id="verstappen-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Ayrton Senna: <span id="senna-count">0 voti</span><div id="senna-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Alain Prost: <span id="prost-count">0 voti</span><div id="prost-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Fernando Alonso: <span id="alonso-count">0 voti</span><div id="alonso-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Niki Lauda: <span id="lauda-count">0 voti</span><div id="lauda-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Sir Jackie Stewart: <span id="stewart-count">0 voti</span><div id="stewart-bar" class="bar" style="width: 0;"></div></div>
+                  <div>Jim Clark: <span id="clark-count">0 voti</span><div id="clark-bar" class="bar" style="width: 0;"></div></div> <br><br>
+              </div>
+            </div>
+
+              <h2>Calcolo la differenza di punti tra due piloti</h2>
+          
+                <label for="nomePilota1">Nome Pilota 1:</label>
+                <input type="text" id="nomePilota1" placeholder="Inserisci il nome del pilota 1"><br>
+          
+                <label for="puntiPilota1">Punti Pilota 1:</label>
+                <input type="number" id="puntiPilota1" placeholder="Inserisci i punti del pilota 1"><br><br>
+          
+                <label for="nomePilota2">Nome Pilota 2:</label>
+                <input type="text" id="nomePilota2" placeholder="Inserisci il nome del pilota 2"><br>
+          
+                <label for="puntiPilota2">Punti Pilota 2:</label>
+                <input type="number" id="puntiPilota2" placeholder="Inserisci i punti del pilota 2"><br><br>
+          
+              <button onclick="calcolaDifferenza()">Calcola Differenza</button>
+          
+                <p id="risultato"></p><br><br>
+          
+              <h2>La scuderia Ferrari</h2>
+              <img src="Logo_della_Scuderia_Ferrari_(vecchio).svg.png" alt="logo Ferrari" hspace="100"style width="50%" height="auto">
+              <p>La Ferrari non è solo una scuderia, è una leggenda fatta di numeri e di campioni che hanno lasciato un segno indelebile nella storia della Formula 1, l'unica squadra ad aver partecipato a tutti i campionati mondiali di Formula 1 dalla sua prima edizione nel 1950. Un record che la dice lunga sulla sua longevità e sulla sua importanza nel mondo delle corse.
+               La Ferrari ha conquistato 16 titoli mondiali costruttori e 15 titoli mondiali piloti. Dietro questi numeri ci sono piloti leggendari che hanno fatto la storia della Scuderia.
+                Juan Manuel Fangio, uno dei primi campioni del mondo Ferrari, un vero maestro del volante.
+                Niki Lauda,un pilota leggendario, noto per la sua determinazione e la sua freddezza.
+                Michael Schumacher, il più grande di tutti i tempi, ha dominato la Formula 1 per anni, portando la Ferrari a un'era d'oro.
+                Fernando Alonso, un talento puro, capace di imprese straordinarie e di far sognare i tifosi.
+                Questi sono solo alcuni dei nomi che hanno fatto grande la Ferrari. Ogni pilota che ha indossato il rosso ha contribuito a scrivere pagine indimenticabili della storia di questa scuderia. Abbiamo già visto come la Ferrari sia una delle scuderie più vincenti della Formula 1. Oltre ai titoli mondiali, la Rossa ha collezionato una serie incredibile di record che l'hanno resa unica nel suo genere. Ad esempio, la Ferrari detiene il record per il maggior numero di vittorie in gara, ha conquistato più pole position di qualsiasi altra scuderia. Questi numeri testimoniano la superiorità della Ferrari e la sua capacità di dominare la Formula 1 per lunghi periodi, ma i numeri non bastano a raccontare la storia della Ferrari. Sono le sue monoposto, vere e proprie opere d'arte, a far battere il cuore degli appassionati. Modelli come la Ferrari F2004, guidata da Michael Schumacher, e la Ferrari 312 T2 di Niki Lauda sono entrate nella leggenda per la loro bellezza e per le vittorie conquistate. Queste macchine sono molto più di semplici strumenti per vincere le gare: sono dei veri e propri simboli, in grado di emozionare generazioni di tifosi.</p>
+                <video width="100%"  controls>
+                  <source src="F2004 la F1 talmente veloce da mettere PAURA alla Ferrari stessa.mp4" type="video/mp4">
+                  <source src="F2004 la F1 talmente veloce da mettere PAURA alla Ferrari stessa.mp4" type="video/ogg">
+                  Il browser non supporta questo video.
+                </video>
+      
+          <script>
+
+              const votes = {
+                Schumacher: 0,
+                  Hamilton: 0,
+                  Fangio: 0,
+                  Verstappen: 0,
+                  Senna: 0,
+                  Prost: 0,
+                  Alonso: 0,
+                  Lauda: 0,
+                  Stewart: 0,
+                  Clark: 0
+              };
+      
+              function vote(pilota) {
+                  votes[pilota]++;
+                  updateResults();
+              }
+              function updateResults() {
+                  const totalVotes = Object.values(votes).reduce((a, b) => a + b, 0);
+      
+                  for (const pilota in votes) {
+                      const percentage = totalVotes ? (votes[pilota] / totalVotes) * 100 : 0;
+                      document.getElementById(`${pilota.toLowerCase()}-bar`).style.width = percentage + '%';
+                      document.getElementById(`${pilota.toLowerCase()}-count`).textContent = `${votes[pilota]} voti`;
+                  }
+              }
+              
+                  function calcolaDifferenza() {
+                      const nome1 = document.getElementById("nomePilota1").value;
+                      const punti1 = parseInt(document.getElementById("puntiPilota1").value);
+                      const nome2 = document.getElementById("nomePilota2").value;
+                      const punti2 = parseInt(document.getElementById("puntiPilota2").value);
+          
+                      const differenza = punti1 - punti2;
+          
+                      document.getElementById("risultato").textContent = 
+                          `La differenza di punti tra ${nome1} e ${nome2} è di ${differenza} punti`;
+                  }
+
+          </script>
+
+      </aside>
+      
+      <footer>
+
+              <address>
+                  Liceo Scientifico e Linguistico Statale Archimede<br>
+                  Scienze applicate<br>
+                  classe IV i<br>
+                  <a href="https://www.instagram.com/alessandromafodda/" target="_blank">
+                    Alessandro Mafodda<br></a>
+              </address>
+
+      </footer>
+
+    </body>
+
+</html>

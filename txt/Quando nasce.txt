@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Quando nasce</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="F1.css">
+        
+        <style>
+            aside img {
+                transition: transform 0.3s ease; 
+            }
+    
+            aside img:hover {
+                transform: scale(1.5); 
+            }
+        </style>
+    </head>
+
+     <body>
+    
+      <header>
+          <a href="Home.html">
+          <img src="f1_logo.png" alt="F1 Logo" ></a>
+          <h1>Quando nasce</h1>
+      </header>
+       
+      <menu>
+            <ul>
+              <li><button class="btn"><a href="Home.html">Home</a></button></li>
+              <li><button class="btn"><a href="La%20nuova%20F1.html">La nuova F1</a></button></li>
+              <li><button class="btn"><a href="Calendario%202024.html">Calendario 2024</a></button></li>
+              <li><button class="btn"><a href="Albo%20d'oro.html">Albo d'oro</a></button></li>
+              <li><button class="btn"><a href="Ultime%20stagioni.html">Ultime stagioni</a></button></li>
+              <li><button class="btn"><a href="Stagioni%20passate.html">Stagioni passate</a></button></li>
+              <li><button class="btn active"><a href="Quando%20nasce.html">Quando nasce</a></button></li>
+              <li><button class="btn2"><a href="Formule%20minori.html">Formule minori</a></button></li>
+            </ul>
+      </menu>
+       
+      <article>
+                <h2>LE PRIME SFIDE SU QUATTRO RUOTE</h2>
+                <h5>27 luglio, 2024</h5>
+                <img src="Start_of_1965_Dutch_Grand_Prix.png" alt="Primo gp" style width="70%" hspace="20">
+                <p>All'inizio del XX secolo, l'automobile, appena inventata, iniziò a conquistare le strade e a far sognare velocità e avventura. Nasceva così la passione per le competizioni automobilistiche, che ben presto si sarebbero evolute in uno sport a tutti gli effetti, dando vita a quella che oggi conosciamo come Formula 1. Le prime gare automobilistiche erano eventi più simili a esibizioni che a vere e proprie competizioni. Non esistevano regole precise, né circuiti appositamente progettati. Le auto, spesso molto diverse tra loro per caratteristiche e prestazioni, si sfidavano su strade aperte al pubblico, mettendo a dura prova sia i piloti che i mezzi. Queste prime gare erano più che altro un modo per dimostrare le potenzialità delle nuove invenzioni e per soddisfare la curiosità di un pubblico sempre più appassionato. Ben presto si comprese la necessità di stabilire regole comuni per garantire la sicurezza dei piloti e l'equità delle competizioni. Nacquero così le prime formule, ovvero degli insiemi di regole tecniche che definivano le caratteristiche delle vetture partecipanti, come la cilindrata del motore, il peso e le dimensioni. L'obiettivo era quello di creare un contesto competitivo più equo e sicuro, in cui le vetture avessero caratteristiche simili e i piloti potessero confrontarsi alla pari. Dalle prime formule si svilupparono gradualmente campionati sempre più organizzati e competitivi. Le gare si spostarono dai percorsi stradali ai circuiti appositamente costruiti, le auto diventarono sempre più sofisticate e i piloti sempre più specializzati. Fu così che nacque la Formula 1, la massima espressione del motorsport.</p>
+                <h2>L'APICE DEL MOTORSPORT</h2>
+                <h5>10 luglio, 2024</h5>
+                <img src="Hamilton-Verstappen-e1632491072762.png" alt="Hamilton-Verstappen" style width="61%" hspace="22">
+                <p>La Formula 1 rappresenta l'apice del motorsport mondiale, una disciplina che combina tecnologia all'avanguardia, abilità dei piloti e competizione serrata. Nata dalle prime corse automobilistiche, la Formula 1 si è evoluta nel tempo diventando uno sport globale, seguito da milioni di appassionati. Le monoposto di Formula 1 sono delle vere e proprie opere d'ingegneria, frutto di anni di ricerca e sviluppo. Ogni dettaglio, dal motore alla carrozzeria, è progettato per massimizzare le prestazioni e garantire la massima velocità. I team che partecipano al campionato mondiale sono composti da ingegneri, meccanici e tecnici altamente specializzati, che lavorano incessantemente per migliorare le prestazioni delle vetture. Al volante di queste macchine potenti e sofisticate troviamo i piloti, veri e propri eroi dello sport moderno. Dotati di una preparazione fisica e mentale eccezionale, i piloti di Formula 1 devono affrontare sfide estreme, guidando al limite delle possibilità delle loro vetture. La loro abilità nel gestire la velocità, la pressione e lo stress li rende figure affascinanti e ammirate da milioni di persone. Le gare di Formula 1 si svolgono sui circuiti più famosi e iconici al mondo, come Monaco, Spa-Francorchamps e Monza. Questi circuiti, con le loro caratteristiche uniche, offrono uno spettacolo indimenticabile agli appassionati. La storia della Formula 1 è costellata di rivalità epiche tra piloti e team, che hanno contribuito a rendere questo sport ancora più affascinante. La Formula 1 è uno sport che unisce passione, tecnologia e spettacolo. È uno sport globale, seguito da milioni di appassionati in tutto il mondo, che si ritrovano ogni weekend per seguire le gare e tifare per i loro piloti preferiti. La Formula 1 è anche un importante laboratorio di innovazione, dove vengono sviluppate nuove tecnologie che poi trovano applicazione nel settore automobilistico.</p>
+       </article>
+
+       <aside>
+                <h3>L'evoluzione della Formula 1</h3>
+                <img src="770px-Circuit_spa_old.png" alt="SPA" style width="100%">
+                <p>La Formula 1, il pinnacolo del motorsport, ha attraversato un'evoluzione straordinaria nel corso dei decenni. Da semplici gare su strade aperte, è diventata uno sport tecnologicamente avanzato e spettacolare, seguito da milioni di appassionati in tutto il mondo. Analizziamo nel dettaglio alcuni degli aspetti più significativi di questa evoluzione. La durata delle gare di Formula 1 è variata nel corso degli anni, influenzata da fattori come la lunghezza dei circuiti, le regolamentazioni tecniche e le esigenze televisive. Inizialmente, le gare potevano durare diverse ore, mettendo a dura prova la resistenza sia dei piloti che delle vetture. Con l'introduzione di regolamenti più stringenti e l'obiettivo di offrire uno spettacolo più dinamico, la durata media delle gare si è progressivamente ridotta. Tuttavia, fattori come le condizioni meteorologiche e le safety car possono ancora influenzare significativamente la durata di una gara. I circuiti di Formula 1 hanno subito un'evoluzione altrettanto significativa. Le prime gare si svolgevano su strade pubbliche, spesso chiuse al traffico per l'occasione. Questi circuiti, caratterizzati da un fondo stradale irregolare e dalla presenza di ostacoli fissi, erano molto pericolosi e offrivano poco spazio per gli errori. Con il passare degli anni, si è avvertita l'esigenza di creare circuiti appositamente progettati per le corse automobilistiche. Questi nuovi circuiti, dotati di zone di fuga ampie, barriere di sicurezza e strutture moderne, hanno contribuito a rendere la Formula 1 uno sport sempre più sicuro e spettacolare. Un esempio emblematico di questa evoluzione è il circuito di Spa-Francorchamps, in Belgio. Nato nel 1921 come semplice strada di campagna, Spa-Francorchamps è stato uno dei circuiti più lunghi e pericolosi al mondo. Negli anni '60, il circuito fu modificato per renderlo più sicuro, ma mantenne comunque il suo carattere impegnativo e spettacolare. Negli anni '90, Spa-Francorchamps fu completamente ridisegnato, dando vita al circuito moderno che conosciamo oggi, caratterizzato da curve veloci, cambi di pendenza e zone tecniche.  La sicurezza dei piloti è sempre stata una priorità assoluta nella Formula 1. Negli ultimi decenni, sono stati introdotti numerosi dispositivi di sicurezza, come le celle di sopravvivenza, i sistemi di protezione laterali e i caschi sempre più performanti. Inoltre, i circuiti sono stati resi più sicuri grazie all'installazione di barriere protettive, vie di fuga più ampie e l'utilizzo di materiali assorbenti l'urto.</p>
+       </aside>
+
+       <footer>
+                <address>
+                  Liceo Scientifico e Linguistico Statale Archimede<br>
+                  Scienze applicate<br>
+                  classe IV i<br>
+                  <a href="https://www.instagram.com/alessandromafodda/" target="_blank">
+                    Alessandro Mafodda<br></a>
+                    </address>
+        </footer>
+
+      </body>
+
+</html>

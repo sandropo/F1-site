@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Calendario 2024</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Albo d'oro.css">
+    </head>
+     
+     <body>
+          
+      <header>
+          <a href="Home.html">
+          <img src="f1_logo.png" alt="F1 Logo" ></a>
+          <h1>Calendario 2024</h1>
+       </header>
+          
+      <menu>
+            <ul>
+              <li><button class="btn"><a href="Home.html">Home</a></button></li>
+              <li><button class="btn"><a href="La%20nuova%20F1.html">La nuova F1</a></button></li>
+              <li><button class="btn active"><a href="Calendario%202024.html">Calendario 2024</a></button></li>
+              <li><button class="btn"><a href="Albo%20d'oro.html">Albo d'oro</a></button></li>
+              <li><button class="btn"><a href="Ultime%20stagioni.html">Ultime stagioni</a></button></li>
+              <li><button class="btn"><a href="Stagioni%20passate.html">Stagioni passate</a></button></li>
+              <li><button class="btn"><a href="Quando%20nasce.html">Quando nasce</a></button></li>
+              <li><button class="btn2"><a href="Formule%20minori.html">Formule minori</a></button></li>
+            </ul>
+      </menu>
+            
+      <article>
+              <h2>CALENDARIO F1 2024 E ORARI TV</h2>
+              <table style="width:100%">
+                  <tr>
+                    <th>Data</th>
+                    <th>Gran Premio</th> 
+                    <th>PL1</th>
+                    <th>PL2</th>
+                    <th>PL3</th>
+                    <th>Qualifiche</th>
+                    <th>Gara</th>
+                    <th>Diretta TV</th>
+                    <th>Mappa</th>
+                  </tr>
+
+                  <tr>
+                    <td>29 febbraio-2 marzo</td>
+                    <td>Bahrain</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>16:00</td>
+                    <td>Sky</td>
+                    <td><img src="formula-1_gp-bahrain_2023.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>7-9 marzo</td>
+                    <td>Arabia Saudita</td>
+                    <td>14:30</td>
+                    <td>18:00</td>
+                    <td>14:30</td>
+                    <td>18:00</td>
+                    <td>18:00</td>
+                    <td>Sky</td>
+                    <td><img src="Arabia Saudita.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>22-24 marzo</td>
+                    <td>Australia</td>
+                    <td>02:30</td>
+                    <td>06:00</td>
+                    <td>02:30</td>
+                    <td>06:00</td>
+                    <td>05:00</td>
+                    <td>Sky</td>
+                    <td><img src="Australia.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>5-7 aprile</td>
+                    <td>Giappone</td>
+                    <td>04:30</td>
+                    <td>08:00</td>
+                    <td>04:30</td>
+                    <td>08:00</td>
+                    <td>07:00</td>
+                    <td>Sky</td>
+                    <td><img src="Suzuka_circuito_pista_mappa.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>19-21 aprile</td>
+                    <td>Cina*</td>
+                    <td>05:30</td>
+                    <td>09:30</td>
+                    <td>05:00</td>
+                    <td>09:00</td>
+                    <td>09:00</td>
+                    <td>Sky, TV8 (solo Sprint)</td>
+                    <td><img src="Cina.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>3-5 maggio</td>
+                    <td>Miami*</td>
+                    <td>18:30</td>
+                    <td>22:30</td>
+                    <td>18:00</td>
+                    <td>22:00</td>
+                    <td>22:00</td>
+                    <td>Sky, TV8 (solo Sprint)</td>
+                    <td><img src="miami.png" style width="200"></td>
+
+                   <tr>
+                    <td>17-19 maggio</td>
+                    <td>Emilia Romagna</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky</td>
+                    <td><img src="Imola_Mappa_Circuito_Layout.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>24-26 maggio</td>
+                    <td>Monaco</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky</td>
+                    <td><img src="Monaco.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>7-9 giugno</td>
+                    <td>Canada</td>
+                    <td>19:30</td>
+                    <td>23:00</td>
+                    <td>18:30</td>
+                    <td>22:00</td>
+                    <td>20:00</td>
+                    <td>Sky</td>
+                    <td><img src="Canada_Map_Montreal_Circuit.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>21-23 giugno</td>
+                    <td>Spagna</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky</td>
+                    <td><img src="formula-1_gp-spagna_2024.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>28-30 giugno</td>
+                    <td>Austria*</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky, TV8 (solo Sprint)</td>
+                    <td><img src="Austria.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>5-7 luglio</td>
+                    <td>Gran Bretagna</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>16:00</td>
+                    <td>Sky</td>
+                    <td><img src="Silverstone-Circuit.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>19-21 luglio</td>
+                    <td>Ungheria</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky</td>
+                    <td><img src="Hungaroring_Map_Mappa_Circuito.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>26-28 luglio</td>
+                    <td>Belgio</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky</td>
+                    <td><img src="Spa_mappa_Circuito-666x444.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>23-25 agosto</td>
+                    <td>Paesi Bassi</td>
+                    <td>13:30</td>
+                    <td>16:00</td>
+                    <td>11:30</td>
+                    <td>15:00</td>
+                    <td>15:00</td>
+                    <td>Sky</td>
+                    <td><img src="Imola_Mappa_Circuito_Layout.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>30 agosto-1 settembre</td>
+                    <td>Italia</td>
+                    <td>13:30</td>
+                    <td>17:00</td>
+                    <td>12:30</td>
+                    <td>16:00</td>
+                    <td>15:00</td>
+                    <td>Sky, TV8</td>
+                    <td><img src="monza-gp-italia-gran-premio-de-italia-formula-1-f1_6ig2wzyt5ppl1i7uyv8q0dxpg.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>13-15 settembre</td>
+                    <td>Azerbaijan</td>
+                    <td>11:30</td>
+                    <td>15:00</td>
+                    <td>10:30</td>
+                    <td>14:00</td>
+                    <td>13:00</td>
+                    <td>Sky</td>
+                    <td><img src="Azerbaijan.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>20-22 settembre</td>
+                    <td>Singapore</td>
+                    <td>11:30</td>
+                    <td>15:00</td>
+                    <td>11:30</td>
+                    <td>15:00</td>
+                    <td>14:00</td>
+                    <td>Sky</td>
+                    <td><img src="Singapore.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>18-20 ottobre</td>
+                    <td>Stati Uniti*</td>
+                    <td>19:30</td>
+                    <td>23:30</td>
+                    <td>20:00</td>
+                    <td>00:00</td>
+                    <td>21:00</td>
+                    <td>Sky, TV8 (solo Sprint)</td>
+                    <td><img src="Circuit-Of-The-Americas.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>25-27 ottobre</td>
+                    <td>Messico</td>
+                    <td>20:30</td>
+                    <td>00:00</td>
+                    <td>19:30</td>
+                    <td>23:00</td>
+                    <td>21:00</td>
+                    <td>Sky</td>
+                    <td><img src="Messico.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>1-3 novembre</td>
+                    <td>Brasile*</td>
+                    <td>15:30</td>
+                    <td>19:30</td>
+                    <td>15:00</td>
+                    <td>19:00</td>
+                    <td>18:00</td>
+                    <td>Sky, TV8 (solo Sprint)</td>
+                    <td><img src="Brasile_interlagos_map_mappa.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>22-24 novembre</td>
+                    <td>Las Vegas</td>
+                    <td>03:30</td>
+                    <td>07:00</td>
+                    <td>03:30</td>
+                    <td>07:00</td>
+                    <td>07:00</td>
+                    <td>Sky</td>
+                    <td><img src="las-vegas.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>29 novembre-1 dicembre</td>
+                    <td>Qatar*</td>
+                    <td>14:30</td>
+                    <td>18:30</td>
+                    <td>14:00</td>
+                    <td>18:00</td>
+                    <td>17:00</td>
+                    <td>Sky, TV8 (solo Sprint)</td>
+                    <td><img src="Quatar.png" style width="200"></td>
+                  </tr>
+
+                  <tr>
+                    <td>6-8 dicembre</td>
+                    <td>Abu Dhabi</td>
+                    <td>10:30</td>
+                    <td>14:00</td>
+                    <td>11:30</td>
+                    <td>15:00</td>
+                    <td>14:00</td>
+                    <td>Sky</td>
+                    <td><img src="Abu Dhabi.png" style width="200"></td>
+                  </tr>
+
+             </table>
+
+              <p>*Weekend di gara che seguiranno il format Sprint con una sessione di prove libere al venerdì, le Qualifiche valide per la Sprint al venerdì, la Sprint sabato mattina, le Qualifiche del GP sabato pomeriggio con la domenica come sempre dedicata al Gran Premio.</p>
+      </article>
+
+      <aside>
+              <h3>La Formula 1 si accende sotto le luci della Strip</h3>
+            <img src="las-vegas-gp-rendering-1.png" alt="Las Vegas" style width="100%">
+              <p>La Formula 1 è pronta a illuminare le notti di Las Vegas con un nuovo circuito mozzafiato. Immaginatevi delle monoposto che sfrecciano a oltre 300 km/h tra i grattacieli più famosi del mondo, con le luci al neon che creano un'atmosfera magica. Il nuovo circuito di Las Vegas è un vero e proprio gioiello dell'ingegneria. Con le sue curve veloci e i rettilinei interminabili, promette di regalare gare spettacolari e ricche di sorpassi. Ma non è solo la velocità a fare la differenza. Il tracciato è stato progettato per offrire ai piloti una sfida unica, con cambi di pendenza e curve che richiedono una guida precisa e reattiva. Correre a Las Vegas non è solo una gara, è un vero e proprio evento. Immaginatevi a bordo pista, con la musica che pompa e le luci che si accendono. Potrete ammirare da vicino le monoposto, incontrare i vostri piloti preferiti e vivere un'esperienza indimenticabile. Las Vegas è la città del divertimento, dei sogni e delle emozioni forti. Organizzare un Gran Premio in questa città significa portare la Formula 1 a un livello superiore, creando un evento che va oltre lo sport.</p>
+              <h3>La scuderia Ferrari</h3>
+              <img src="sprint-2024.png" alt="sprint" style width="100%">
+              <p>Negli ultimi anni, la Formula 1 ha introdotto una nuova e dinamica componente ai suoi weekend di gara: le Sprint Race. Questa innovazione ha lo scopo di incrementare l'azione in pista, offrire maggiore spettacolo ai tifosi e rendere i weekend di gara ancora più avvincenti. Una Sprint Race è una mini-gara che si svolge il sabato, subito prima della gara principale della domenica. La durata è inferiore rispetto alla gara tradizionale e si disputa su un numero di giri prestabilito. La griglia di partenza è determinata dalle qualifiche tradizionali del venerdì. I primi tre classificati della Sprint Race ottengono dei punti per il campionato mondiale, rendendo così ogni posizione conquistata estremamente importante. L'obiettivo principale delle Sprint Race è quello di aumentare l'eccitazione e l'imprevedibilità dei weekend di gara. Le ragioni principali alla base di questa scelta sono:
+                <ul>
+                  <li>  Incremento dell'azione in pista, la durata più breve della Sprint Race incoraggia i piloti ad adottare strategie più aggressive e a cercare il sorpasso, garantendo così un maggior numero di sorpassi e di duelli ruota a ruota.</li>
+                  <li>	Maggiore coinvolgimento dei tifosi, le Sprint Race offrono ai tifosi un'ulteriore opportunità di assistere a gare emozionanti e di vedere i loro piloti preferiti in azione.</li>
+                  <li>	Sperimentazione di nuovi format, le Sprint Race rappresentano un'opportunità per la Formula 1 di sperimentare nuovi format e di rendere il campionato ancora più dinamico e attraente per un pubblico sempre più esigente.</li>
+                </ul>
+                L'introduzione delle Sprint Race ha inevitabilmente portato a una rivalutazione delle strategie di gara da parte dei team. I team devono ora bilanciare la necessità di ottenere un buon risultato nella Sprint Race con quella di preservare le gomme e la vettura in vista della gara principale. Le Sprint Race rappresentano un'innovazione significativa per la Formula 1. Sebbene siano state introdotte da poco, hanno già dimostrato di essere in grado di aumentare l'interesse e l'entusiasmo dei tifosi. Nonostante alcune critiche, le Sprint Race sembrano destinate a rimanere parte integrante del calendario della Formula 1 per gli anni a venire.
+                </p>
+      </aside>
+      
+      <footer>
+              <address>
+                  Liceo Scientifico e Linguistico Statale Archimede<br>
+                  Scienze applicate<br>
+                  classe IV i<br>
+                  <a href="https://www.instagram.com/alessandromafodda/" target="_blank">
+                    Alessandro Mafodda<br></a>
+              </address>
+
+      </footer>
+
+    </body>
+
+</html>

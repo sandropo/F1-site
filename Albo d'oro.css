@@ -1,0 +1,453 @@
+/* ============================================================
+   Albo d'Oro — Stylesheet
+   Aligned with F1.css visual language
+   Color palette: #CC0000 (red), #111111 (dark), #FFFFFF (white), #FFD700 (gold)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Reset ── */
+* {
+  box-sizing: border-box;
+}
+
+/* ── Body ── */
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  padding: 15px;
+  background: linear-gradient(135deg, #CC0000 0%, #990000 100%);
+  background-attachment: fixed;
+  margin: 0;
+  color: #222;
+}
+
+/* ── Header ── */
+header {
+  padding: 20px 16px 16px;
+  text-align: center;
+  background: linear-gradient(180deg, #b30000 0%, #CC0000 60%, #aa0000 100%);
+  color: #ffffff;
+  font-style: italic;
+  margin-bottom: 5px;
+  font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+}
+
+header img {
+  max-height: 55px;
+  width: auto;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+}
+
+header img:hover {
+  transform: scale(1.5);
+}
+
+header h1 {
+  margin: 10px 0 0 0;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* ── Navigation Menu (glassmorphism pill) ── */
+menu {
+  margin: 10px 0 15px 0;
+  padding: 0;
+  background: rgba(15, 15, 15, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius: 25px;
+  z-index: 1000;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.4);
+}
+
+menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: transparent;
+}
+
+menu li {
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+
+menu .btn,
+menu .btn2 {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  height: 2.8em;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(204, 0, 0, 0.75);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* remove old sticky/overflow residue */
+  position: static;
+  overflow: visible;
+  list-style-type: none;
+}
+
+menu .btn:hover,
+menu .btn2:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+menu ul li a {
+  display: flex;
+  text-align: center;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 13.5px;
+  transition: color 0.25s ease;
+}
+
+menu .btn:hover a,
+menu .btn2:hover a {
+  color: #CC0000;
+  font-weight: bold;
+}
+
+menu a:hover {
+  background-color: transparent;
+  color: #CC0000;
+}
+
+menu .btn.active,
+menu .btn2.active {
+  background-color: #ffffff;
+}
+
+menu .btn.active a,
+menu .btn2.active a {
+  color: #CC0000;
+  font-weight: bold;
+}
+
+/* ── Article ── */
+article {
+  border-top: 4px solid #CC0000;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  padding: 24px;
+  margin-top: 0;
+  background-color: #ffffff;
+  float: left;
+  width: 75%;
+  text-align: justify;
+  line-height: 1.6;
+  border-radius: 10px;
+  min-height: 600px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+/* ── Aside ── */
+aside {
+  padding: 20px;
+  margin-top: 0;
+  float: left;
+  width: 25%;
+  background-color: #ffffff;
+  border-top: 4px solid #CC0000;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: none;
+  text-align: justify;
+  line-height: 1.5;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+aside h1 {
+  font-size: 1.2rem;
+  color: #CC0000;
+  text-align: center;
+  font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+/* ── Article headings ── */
+h2 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #CC0000;
+  font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.3px;
+}
+
+/* ── Input Row (Albo d'Oro specific) ── */
+.input-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-row label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.input-row input[type="text"],
+.input-row input[type="number"] {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 9px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.input-row input[type="text"]:focus,
+.input-row input[type="number"]:focus {
+  border-color: #CC0000;
+  box-shadow: 0 0 0 3px rgba(204,0,0,0.12);
+}
+
+/* ── Aside Action Button ── */
+aside button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #CC0000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(204,0,0,0.25);
+  transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+aside button:hover {
+  background-color: #990000;
+  transform: translateY(-1px);
+}
+
+#risultato {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #111;
+}
+
+/* ── Opzioni Buttons (Albo d'Oro specific) ── */
+.opzioni button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 14px;
+  font-size: 15px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: #CC0000;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 2px 6px rgba(204,0,0,0.18);
+}
+
+.opzioni button:hover {
+  background-color: #111111;
+  transform: translateY(-1px);
+}
+
+/* ── Risultati (results display) ── */
+.risultati {
+  margin-top: 20px;
+}
+
+.risultati div {
+  margin: 10px 0;
+}
+
+/* ── Bar (chart bars) ── */
+.bar {
+  height: 22px;
+  background: linear-gradient(90deg, #CC0000, #990000);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(204,0,0,0.25);
+  transition: width 0.4s ease;
+}
+
+/* ── Tables ── */
+table {
+  background-color: #ffffff;
+  color: #000000;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 13.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px 6px;
+}
+
+th {
+  background-color: #CC0000;
+  color: white;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.3px;
+}
+
+tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Champion row — gold highlight */
+.champion-row {
+  background: linear-gradient(90deg, #fff8e1, #fffde7) !important;
+}
+
+/* Image hover zoom in table */
+tr img {
+  transition: transform 0.3s ease;
+}
+
+td img:hover {
+  transform: scale(2);
+}
+
+img {
+  image-rendering: optimizeQuality;
+}
+
+/* ── Footer (carbon fiber feel) ── */
+footer {
+  background: #0a0a0a;
+  padding: 22px;
+  text-align: center;
+  color: #dddddd;
+  clear: both;
+  width: 100%;
+  font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  border-top: 4px solid #CC0000;
+  border-radius: 0 0 10px 10px;
+}
+
+footer a {
+  color: #ff6666;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-disclaimer {
+  max-width: 960px;
+  margin: 0 auto 16px auto;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.footer-disclaimer p {
+  margin: 6px 0;
+  padding: 0;
+}
+
+.footer-disclaimer p strong {
+  color: #ff8888;
+}
+
+.fan-badge {
+  display: inline-block;
+  background: #333333;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 8px;
+  vertical-align: middle;
+  border: 1px solid #555555;
+}
+
+/* ── Responsive — Tablet (≤800px) ── */
+@media screen and (max-width: 800px) {
+  article,
+  aside {
+    width: 100%;
+    float: none;
+    border-top: 4px solid #CC0000;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    margin-bottom: 15px;
+    padding: 16px;
+  }
+}
+
+/* ── Responsive — Mobile (≤400px) ── */
+@media screen and (max-width: 400px) {
+  menu ul li a {
+    float: none;
+    width: 100%;
+  }
+
+  menu .btn,
+  menu .btn2 {
+    font-size: 12px;
+    width: 48%;
+  }
+}
