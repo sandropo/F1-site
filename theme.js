@@ -58,11 +58,39 @@
 
   function addNavigationToggle() {
     var menu = document.querySelector("menu");
-    var button = menu && menu.querySelector(".menu-toggle");
-    if (!menu || !button) {
+    if (!menu) {
       return;
     }
 
+    var navigation = menu.querySelector("ul");
+    if (!navigation) {
+      console.error("Unable to add the navigation toggle: navigation list not found.");
+      return;
+    }
+
+    if (!navigation.id) {
+      navigation.id = "primary-navigation";
+    }
+
+    var button = menu.querySelector(".menu-toggle");
+    if (!button) {
+      button = document.createElement("button");
+      button.className = "menu-toggle";
+      button.type = "button";
+      button.setAttribute("aria-label", "Menu di navigazione");
+      button.append(
+        document.createElement("span"),
+        document.createElement("span"),
+        document.createElement("span")
+      );
+      button.querySelectorAll("span").forEach(function (line) {
+        line.setAttribute("aria-hidden", "true");
+      });
+      menu.insertBefore(button, navigation);
+    }
+
+    button.setAttribute("aria-controls", navigation.id);
+    button.setAttribute("aria-expanded", "false");
     menu.classList.add("is-collapsible");
     button.addEventListener("click", function () {
       var isOpen = menu.classList.toggle("is-open");
