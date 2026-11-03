@@ -11,7 +11,9 @@
     console.warn("Theme preference cannot be saved in this browser context.");
   }
 
-  document.documentElement.dataset.theme = storedTheme === "light" ? "light" : "dark";
+  var defaultTheme = new Date().getHours() >= 18 ? "dark" : "light";
+  document.documentElement.dataset.theme =
+    storedTheme === "light" || storedTheme === "dark" ? storedTheme : defaultTheme;
 
   function addThemeSwitch() {
     var header = document.querySelector("header");
@@ -54,9 +56,63 @@
     header.appendChild(button);
   }
 
+  function addNavigationToggle() {
+    var menu = document.querySelector("menu");
+    var button = menu && menu.querySelector(".menu-toggle");
+    if (!menu || !button) {
+      return;
+    }
+
+    menu.classList.add("is-collapsible");
+    button.addEventListener("click", function () {
+      var isOpen = menu.classList.toggle("is-open");
+      button.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
+
+  function highlightCurrentNavigationLink() {
+    var menu = document.querySelector("menu");
+    if (!menu) {
+      return;
+    }
+
+    var currentPath = decodeURIComponent(window.location.pathname).toLowerCase();
+    var links = menu.querySelectorAll("a[href]");
+    var currentLink = null;
+
+    links.forEach(function (link) {
+      var linkPath = decodeURIComponent(new URL(link.href, window.location.href).pathname).toLowerCase();
+      if (linkPath === currentPath) {
+        currentLink = link;
+      }
+    });
+
+    if (!currentLink && /(?:stagione-\d{4}|stagioni passate)\.html$/i.test(currentPath)) {
+      links.forEach(function (link) {
+        if (decodeURIComponent(new URL(link.href, window.location.href).pathname).toLowerCase().endsWith("/ultime stagioni.html")) {
+          currentLink = link;
+        }
+      });
+    }
+
+    if (currentLink) {
+      var button = currentLink.closest("button");
+      if (button) {
+        button.classList.add("active");
+      }
+      currentLink.setAttribute("aria-current", "page");
+    }
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", addThemeSwitch, { once: true });
+    document.addEventListener("DOMContentLoaded", function () {
+      addThemeSwitch();
+      addNavigationToggle();
+      highlightCurrentNavigationLink();
+    }, { once: true });
   } else {
     addThemeSwitch();
+    addNavigationToggle();
+    highlightCurrentNavigationLink();
   }
 })();

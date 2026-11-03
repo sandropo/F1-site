@@ -96,6 +96,10 @@ menu ul {
   background-color: transparent;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 menu li {
   margin: 0;
   padding: 0;
@@ -242,6 +246,104 @@ article img {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 5px 16px rgba(0,0,0,0.12);
+}
+
+.victory-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+  clear: both;
+}
+
+.victory-gallery figure {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #e6e7ea;
+  border-radius: 10px;
+  background: #17191e;
+  box-shadow: 0 5px 16px rgba(0,0,0,0.12);
+}
+
+.victory-gallery img {
+  display: block;
+  float: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.victory-gallery figcaption {
+  padding: 10px 12px;
+  color: #ffffff;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.recent-season {
+  margin: 24px 0;
+  overflow: hidden;
+  border: 1px solid #e6e7ea;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.recent-season h2 {
+  margin: 0;
+  padding: 14px 18px;
+  border: 0;
+  border-bottom: 1px solid #e6e7ea;
+  background: #f8f8f8;
+}
+
+.recent-season-content {
+  display: grid;
+  grid-template-columns: minmax(180px, 32%) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+  padding: 18px;
+}
+
+.recent-season-image {
+  display: block;
+  float: none;
+  width: 100%;
+  max-height: 210px;
+  object-fit: contain;
+  padding: 0;
+  border-radius: 6px;
+  background: #f4f4f4;
+  box-shadow: none;
+}
+
+.recent-season-copy p:first-child {
+  margin-top: 0;
+}
+
+.recent-season-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.calendar-page table td:last-child img {
+  position: relative;
+  display: block;
+  float: none;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  transition: transform 0.2s ease;
+  transform-origin: center;
+}
+
+.calendar-page table td:last-child img:hover {
+  z-index: 1;
+  transform: scale(1.08);
 }
 
 article a {
@@ -900,6 +1002,44 @@ html[data-theme="light"] footer {
 
 /* ── Responsive — Tablet (≤900px) ── */
 @media screen and (max-width: 900px) {
+  menu.is-collapsible .menu-toggle {
+    display: flex;
+    width: fit-content;
+    min-width: 48px;
+    min-height: 48px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 2px;
+    background: #ffffff;
+  }
+
+  menu.is-collapsible:not(.is-open) > ul {
+    display: none;
+  }
+
+  menu.is-collapsible.is-open > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  menu li,
+  menu .btn,
+  menu .btn2 {
+    width: 100%;
+  }
+
   article {
     width: 100%;
     float: none;
@@ -944,6 +1084,18 @@ html[data-theme="light"] footer {
     text-align: left;
   }
 
+  .victory-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-season-content {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-season-image {
+    max-height: 240px;
+  }
+
   article img {
     float: none;
     display: block;
@@ -981,7 +1133,8 @@ html[data-theme="light"] footer {
 
 @media (prefers-reduced-motion: reduce) {
   menu .btn,
-  menu .btn2 {
+  menu .btn2,
+  .calendar-page table td:last-child img {
     transition: none;
   }
 }
