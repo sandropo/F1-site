@@ -7,6 +7,7 @@
     <title>Parco Chiuso | Formula 1</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body class="home-page">
@@ -78,6 +79,90 @@
                     </ol>
                 </section>
             </aside>
+        </section>
+
+        <section class="home-section wheel-section" id="volante" aria-labelledby="wheel-title">
+            <div class="section-heading">
+                <h2 id="wheel-title">DENTRO IL VOLANTE</h2>
+                <span class="eyebrow">COCKPIT · INTERATTIVO 3D</span>
+            </div>
+            <div class="wheel-panel">
+                <div class="wheel-intro">
+                    <span class="wheel-kicker">TECNOLOGIA A PORTATA DI MANO</span>
+                    <h3>Un volante, decine di decisioni.</h3>
+                    <p>Ruotalo per esplorare i comandi: seleziona un indicatore oppure passa su un pulsante per scoprirne la funzione in gara.</p>
+                </div>
+                <div class="wheel-explorer">
+                    <div class="wheel-viewer-wrap">
+                        <model-viewer
+                            id="steering-wheel-viewer"
+                            class="wheel-viewer"
+                            src="media/f1-steering-wheel.glb"
+                            poster="media/f1_steering_wheel_poster.png"
+                            alt="Modello 3D illustrativo di un volante da monoposto di Formula 1 con display, pulsanti e manettini"
+                            loading="eager"
+                            reveal="auto"
+                            camera-controls
+                            auto-rotate
+                            auto-rotate-delay="0"
+                            rotation-per-second="14deg"
+                            camera-orbit="0deg 72deg 2.8m"
+                            camera-target="0m 0m 0m"
+                            min-camera-orbit="auto 28deg 1.65m"
+                            max-camera-orbit="auto 150deg 3.8m"
+                            field-of-view="30deg"
+                            min-field-of-view="22deg"
+                            interaction-prompt="auto"
+                            shadow-intensity="1.5"
+                            exposure="1.0"
+                            touch-action="pan-y">
+                            <button class="wheel-hotspot" type="button" slot="hotspot-drs" data-position="0.47m 0.18m 0.203m" data-normal="0m 0m 1m" data-orbit="0deg 72deg 1.8m" data-title="DRS" data-function="Richiede l’apertura dell’ala posteriore mobile nelle condizioni e nelle zone previste dalla sessione. Riduce la resistenza aerodinamica per favorire la velocità sul rettilineo." data-example="In una zona DRS attiva, il pilota lo aziona quando è entro un secondo dall’auto davanti al punto di rilevamento." aria-label="DRS: apri i dettagli del comando dell’ala posteriore" aria-describedby="wheel-tip-drs" aria-expanded="false">
+                                <span class="wheel-hotspot-dot">01</span>
+                                <span class="wheel-tooltip" id="wheel-tip-drs"><strong>DRS</strong><span class="wheel-tooltip-function">Richiede l’apertura dell’ala posteriore mobile nelle condizioni e nelle zone previste dalla sessione. Riduce la resistenza aerodinamica per favorire la velocità sul rettilineo.</span><span class="wheel-tooltip-example"><b>IN GARA</b> In una zona DRS attiva, il pilota lo aziona quando è entro un secondo dall’auto davanti al punto di rilevamento.</span></span>
+                            </button>
+                            <button class="wheel-hotspot" type="button" slot="hotspot-brake" data-position="-0.355m -0.185m 0.202m" data-normal="0m 0m 1m" data-orbit="0deg 72deg 1.8m" data-title="Brake balance" data-function="Regola la ripartizione della forza frenante tra le ruote anteriori e posteriori. Una variazione del bilanciamento aiuta a gestire stabilità, bloccaggi e usura dei freni." data-example="Il pilota sposta leggermente il bias verso il posteriore quando il carico di carburante cala e la vettura cambia comportamento in frenata." aria-label="Brake balance: apri i dettagli del bilanciamento dei freni" aria-describedby="wheel-tip-brake" aria-expanded="false">
+                                <span class="wheel-hotspot-dot">02</span>
+                                <span class="wheel-tooltip" id="wheel-tip-brake"><strong>Brake balance</strong><span class="wheel-tooltip-function">Regola la ripartizione della forza frenante tra le ruote anteriori e posteriori. Una variazione del bilanciamento aiuta a gestire stabilità, bloccaggi e usura dei freni.</span><span class="wheel-tooltip-example"><b>IN GARA</b> Il pilota sposta leggermente il bias verso il posteriore quando il carico di carburante cala e la vettura cambia comportamento in frenata.</span></span>
+                            </button>
+                            <button class="wheel-hotspot" type="button" slot="hotspot-radio" data-position="-0.47m 0.18m 0.203m" data-normal="0m 0m 1m" data-orbit="0deg 72deg 1.8m" data-title="Radio" data-function="Apre il canale vocale tra il pilota e il muretto box per scambiare informazioni su strategia e condizioni della vettura. Il comando permette di comunicare senza lasciare il volante." data-example="Il pilota preme il pulsante per confermare un messaggio del race engineer o segnalare un problema mentre torna ai box." aria-label="Radio: apri i dettagli della comunicazione con il box" aria-describedby="wheel-tip-radio" aria-expanded="false">
+                                <span class="wheel-hotspot-dot">03</span>
+                                <span class="wheel-tooltip" id="wheel-tip-radio"><strong>Radio</strong><span class="wheel-tooltip-function">Apre il canale vocale tra il pilota e il muretto box per scambiare informazioni su strategia e condizioni della vettura. Il comando permette di comunicare senza lasciare il volante.</span><span class="wheel-tooltip-example"><b>IN GARA</b> Il pilota preme il pulsante per confermare un messaggio del race engineer o segnalare un problema mentre torna ai box.</span></span>
+                            </button>
+                            <button class="wheel-hotspot" type="button" slot="hotspot-engine" data-position="0.235m 0.405m 0.18m" data-normal="0m 0m 1m" data-orbit="0deg 72deg 1.8m" data-title="Engine map / STRAT" data-function="Il selettore multifunzione richiama mappe e impostazioni approvate dal team per la power unit e la gestione dell’energia. Le opzioni disponibili e i loro effetti dipendono dalla vettura e dalle procedure della squadra." data-example="Su un rettilineo, il pilota seleziona la modalità di erogazione o recupero concordata con gli ingegneri per la fase di gara." aria-label="Engine map e STRAT: apri i dettagli del selettore multifunzione" aria-describedby="wheel-tip-engine" aria-expanded="false">
+                                <span class="wheel-hotspot-dot">04</span>
+                                <span class="wheel-tooltip" id="wheel-tip-engine"><strong>Engine map / STRAT</strong><span class="wheel-tooltip-function">Il selettore multifunzione richiama mappe e impostazioni approvate dal team per la power unit e la gestione dell’energia. Le opzioni disponibili e i loro effetti dipendono dalla vettura e dalle procedure della squadra.</span><span class="wheel-tooltip-example"><b>IN GARA</b> Su un rettilineo, il pilota seleziona la modalità di erogazione o recupero concordata con gli ingegneri per la fase di gara.</span></span>
+                            </button>
+                            <button class="wheel-hotspot" type="button" slot="hotspot-paddles" data-position="0.47m 0.08m -0.16m" data-normal="0m 0m -1m" data-orbit="180deg 72deg 2m" data-title="Palette e frizione" data-function="Le palette posteriori comandano le cambiate, mentre una leva separata aziona la frizione. Il loro assetto varia da un volante all’altro e i comandi restano raggiungibili senza staccare le mani." data-example="Il pilota scala marcia in ingresso curva con la paletta sinistra e usa la frizione alla partenza per dosare il rilascio." aria-label="Palette e frizione: apri i dettagli dei comandi posteriori" aria-describedby="wheel-tip-paddles" aria-expanded="false">
+                                <span class="wheel-hotspot-dot">05</span>
+                                <span class="wheel-tooltip" id="wheel-tip-paddles"><strong>Palette e frizione</strong><span class="wheel-tooltip-function">Le palette posteriori comandano le cambiate, mentre una leva separata aziona la frizione. Il loro assetto varia da un volante all’altro e i comandi restano raggiungibili senza staccare le mani.</span><span class="wheel-tooltip-example"><b>IN GARA</b> Il pilota scala marcia in ingresso curva con la paletta sinistra e usa la frizione alla partenza per dosare il rilascio.</span></span>
+                            </button>
+                            <div class="wheel-loading" slot="progress-bar" aria-hidden="true"><span></span></div>
+                        </model-viewer>
+                        <div class="wheel-fallback" hidden>
+                            <img src="media/f1_steering_wheel_poster.png" alt="Illustrazione di un volante da Formula 1 con display, manettini, pulsanti e palette posteriori">
+                            <p>Anteprima statica del volante. Il modello 3D non è disponibile in questo browser.</p>
+                        </div>
+                        <div class="wheel-viewer-caption"><span>MODELLO ILLUSTRATIVO</span><span>Trascina per ruotare · scroll o pinch per zoom</span></div>
+                    </div>
+                    <aside class="wheel-details" aria-live="polite" aria-atomic="true">
+                        <span class="wheel-detail-index">SELEZIONA UN COMANDO</span>
+                        <h4 class="wheel-detail-title">La strategia, sotto i pollici.</h4>
+                        <span class="wheel-detail-label">FUNZIONE</span>
+                        <p class="wheel-detail-function">Seleziona un hotspot per scoprire a cosa serve ogni comando durante un Gran Premio.</p>
+                        <span class="wheel-detail-label">ESEMPIO IN GARA</span>
+                        <p class="wheel-detail-example">Fai clic su un marker per inquadrare il comando sul modello.</p>
+                        <ol class="wheel-control-list">
+                            <li><button type="button" data-wheel-control="drs" aria-label="Mostra DRS sul modello"><span>01</span>DRS</button></li>
+                            <li><button type="button" data-wheel-control="brake" aria-label="Mostra brake balance sul modello"><span>02</span>Brake balance</button></li>
+                            <li><button type="button" data-wheel-control="radio" aria-label="Mostra radio sul modello"><span>03</span>Radio</button></li>
+                            <li><button type="button" data-wheel-control="engine" aria-label="Mostra engine map e STRAT sul modello"><span>04</span>Engine map / STRAT</button></li>
+                            <li><button type="button" data-wheel-control="paddles" aria-label="Mostra palette e frizione sul modello"><span>05</span>Palette e frizione</button></li>
+                        </ol>
+                        <button class="wheel-reset" type="button" data-wheel-reset>Ripristina vista completa</button>
+                    </aside>
+                </div>
+                <p class="wheel-disclaimer">Le disposizioni e le funzioni dei comandi cambiano tra squadre e regolamenti. Questo volante è un modello didattico generico, non la replica di un componente ufficiale.</p>
+            </div>
         </section>
 
         <section class="home-section paddock-section" id="analisi">
@@ -176,5 +261,6 @@
             <div><span class="eyebrow">REDAZIONE</span><a href="index.html#community">Chi siamo</a><a href="https://www.instagram.com/alessandromafodda/" target="_blank" rel="noopener noreferrer">Contatti</a></div>
         </div>
     </footer>
+    <script type="module" src="wheel3d.js"></script>
 </body>
 </html>

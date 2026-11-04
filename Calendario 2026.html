@@ -8,6 +8,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="F1.css">
+        <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+            }
+        }
+        </script>
         <script src="theme.js"></script>
 </head>
      
@@ -35,6 +43,42 @@
       <article>
               <h2>CALENDARIO F1 2026 E ORARI TV</h2>
               <h5>Stagione in corso — aggiornamento: 2 Novembre 2026</h5>
+              <section class="circuit3d-section" aria-labelledby="circuit3d-title">
+                  <div class="circuit3d-heading">
+                      <div>
+                          <span class="circuit3d-eyebrow">ESPLORA IL CIRCUITO</span>
+                          <h3 id="circuit3d-title">Autodromo Nazionale Monza</h3>
+                          <p>Un tracciato ridisegnato curva per curva sulla mappa 2026: dalle due chicane al lungo rettilineo posteriore e alla Parabolica.</p>
+                      </div>
+                      <span class="circuit3d-hint">Trascina per ruotare · rotella per zoom · tasto destro per spostare</span>
+                  </div>
+                  <div class="circuit3d-stats" aria-label="Dati del circuito">
+                      <span><strong>5,793 km</strong> lunghezza</span>
+                      <span><strong>11</strong> curve numerate</span>
+                      <span><strong>3</strong> settori</span>
+                      <span><strong>1</strong> zona Straight Mode</span>
+                  </div>
+                  <div class="circuit3d-viewer" id="monza-viewer">
+                      <canvas class="circuit3d-canvas" aria-label="Circuito 3D di Monza interattivo"></canvas>
+                      <div class="circuit3d-loading" role="status">Caricamento del modello 3D…</div>
+                      <div class="circuit3d-info" aria-live="polite">
+                          <button class="circuit3d-close" type="button" aria-label="Chiudi scheda">×</button>
+                          <span class="circuit3d-info-kicker">CURVA · PUNTO DI INTERESSE</span>
+                          <h4 class="circuit3d-info-name">Seleziona un marker</h4>
+                          <p class="circuit3d-info-description">Clicca un punto numerato sul circuito per i dettagli.</p>
+                          <dl>
+                              <div><dt>Marcia consigliata</dt><dd class="circuit3d-info-gear">—</dd></div>
+                              <div><dt>Velocità stimata</dt><dd class="circuit3d-info-speed">—</dd></div>
+                          </dl>
+                      </div>
+                      <div class="circuit3d-controls" aria-label="Controlli vista">
+                          <button type="button" data-camera="top">Vista dall'alto</button>
+                          <button type="button" data-camera="reset">Ripristina vista</button>
+                      </div>
+                  </div>
+                  <ul class="circuit3d-legend" aria-label="Punti di interesse del circuito"></ul>
+                  <p class="circuit3d-note">Tracciato ricostruito come modello 3D illustrativo dalla mappa 2026; non è un rilievo topografico né è in scala. Quote, velocità e marce sono indicative e possono variare.</p>
+              </section>
               <table style="width:100%">
                   <tr style="background: #CC0000; color: white;">
                     <th>#</th>
@@ -392,6 +436,7 @@
     </div>
 </footer>
 
+        <script type="module" src="circuit3d.js"></script>
     </body>
 
 </html>
