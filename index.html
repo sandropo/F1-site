@@ -1,275 +1,180 @@
 <!DOCTYPE html>
-
-<html>
-
-    <head>
-        <title>F1 - Ultime Notizie</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="F1.css">
-        <script src="theme.js"></script>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Parco Chiuso: notizie, analisi e storie dal mondo della Formula 1.">
+    <title>Parco Chiuso | Formula 1</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="F1.css">
+    <script src="theme.js"></script>
 </head>
+<body class="home-page">
+    <header class="home-header">
+        <a class="home-brand" href="index.html" aria-label="Parco Chiuso, homepage">
+            <img src="f1_logo.png" alt="Logo F1">
+            <span>PARCO CHIUSO</span>
+        </a>
+        <span class="fan-badge">FAN BLOG NON UFFICIALE</span>
+    </header>
 
-     <body>
+    <menu class="home-menu">
+        <button class="menu-toggle" type="button" aria-label="Menu di navigazione" aria-controls="primary-navigation" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
+        <ul id="primary-navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="La%20nuova%20F1.html">La nuova F1</a></li>
+            <li><a href="Calendario%202026.html">Calendario 2026</a></li>
+            <li><a href="Albo%20d'oro.html">Albo d'oro</a></li>
+            <li><a href="Ultime%20stagioni.html">Ultime stagioni</a></li>
+            <li><a href="10-finali-f1.html">10 finali F1</a></li>
+            <li><a href="Quando%20nasce.html">Quando nasce</a></li>
+            <li><a href="Formule%20minori.html">Formule minori</a></li>
+        </ul>
+    </menu>
 
-      <header>
-          <a href="index.html">
-          <img src="f1_logo.png" alt="F1 Fan Blog Logo" title="Sito amatoriale non ufficiale"></a><span class="fan-badge">FAN BLOG NON UFFICIALE</span>
-          <h1>F1 - Ultime Notizie</h1>
-      </header>
-       
-            <menu>
-              <button class="menu-toggle" type="button" aria-label="Menu di navigazione" aria-controls="primary-navigation" aria-expanded="false">
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-              </button>
-          <ul id="primary-navigation">
-              <li><button class="btn"><a href="index.html">Home</a></button></li>
-              <li><button class="btn"><a href="La%20nuova%20F1.html">La nuova F1</a></button></li>
-              <li><button class="btn"><a href="Calendario%202026.html">Calendario 2026</a></button></li>
-              <li><button class="btn"><a href="Albo%20d'oro.html">Albo d'oro</a></button></li>
-              <li><button class="btn"><a href="Ultime%20stagioni.html">Ultime stagioni</a></button></li>
-              <li><button class="btn"><a href="10-finali-f1.html">10 finali F1</a></button></li>
-              <li><button class="btn"><a href="Quando%20nasce.html">Quando nasce</a></button></li>
-              <li><button class="btn2"><a href="Formule%20minori.html">Formule minori</a></button></li>
-          </ul>
-      </menu>
-       
-      <article>
-            <h2>ANDREA KIMI ANTONELLI NELLA STORIA: CAMPIONE DEL MONDO A 20 ANNI</h2>
-            <h5>02 Novembre 2026</h5>
-            <div class="victory-gallery">
-                <figure>
-                    <img src="kimi-antonelli-campione-2026.png" alt="Grafica celebrativa per il titolo mondiale 2026 di Andrea Kimi Antonelli">
-                    <figcaption>Andrea Kimi Antonelli, Campione del Mondo 2026</figcaption>
-                </figure>
-                <figure>
-                    <img src="gp-messico-2026.png" alt="Grafica del Gran Premio del Messico 2026 e del podio di Kimi Antonelli">
-                    <figcaption>Il podio del Gran Premio del Messico, gara decisiva per il titolo</figcaption>
-                </figure>
+    <div class="race-ticker" aria-label="Prossimo appuntamento">
+        <span class="ticker-live">● WEEKEND DI GARA</span>
+        <span class="ticker-separator">·</span>
+        <span>Gran Premio di San Paolo</span>
+        <span class="ticker-separator">·</span>
+        <span>Sprint · Interlagos</span>
+    </div>
+
+    <main class="home-content">
+        <section class="lead-grid" id="notizie" aria-label="In primo piano">
+            <article class="lead-story">
+                <img class="lead-image" src="Hamilton-Verstappen-e1632491072762.png" alt="Duello in pista tra una Mercedes e una Red Bull">
+                <div class="lead-shade"></div>
+                <div class="lead-copy">
+                    <span class="story-tag">ANALISI · GP DEL MESSICO</span>
+                    <h1>Il ritmo che non ti aspetti: cosa è successo davvero in gara</h1>
+                    <p>Antonelli entra nella storia: il GP del Messico consegna all'Italia un nuovo campione del mondo.</p>
+                    <span class="story-byline">DI REDAZIONE <span>·</span> 8 MIN DI LETTURA</span>
+                </div>
+            </article>
+
+            <aside class="race-sidebar">
+                <section class="panel next-race">
+                    <span class="eyebrow">PROSSIMO GRAN PREMIO</span>
+                    <h2>Gran Premio di San Paolo</h2>
+                    <p class="muted">Interlagos · 6–8 novembre 2026</p>
+                    <div class="countdown" aria-label="Appuntamento in arrivo">
+                        <div><strong>06</strong><span>GIORNI</span></div>
+                        <div><strong>08</strong><span>ORE</span></div>
+                        <div><strong>00</strong><span>MIN</span></div>
+                    </div>
+                    <a class="text-link" href="Calendario%202026.html">Dettagli del weekend →</a>
+                </section>
+                <section class="panel most-read">
+                    <h2>I PIÙ LETTI</h2>
+                    <ol>
+                        <li><span>01</span><a href="#analisi">Antonelli è campione del mondo a 20 anni</a></li>
+                        <li><span>02</span><a href="La%20nuova%20F1.html">Come cambia la Formula 1 nel 2026</a></li>
+                        <li><span>03</span><a href="10-finali-f1.html">Le finali di stagione più combattute</a></li>
+                    </ol>
+                </section>
+            </aside>
+        </section>
+
+        <section class="home-section paddock-section" id="analisi">
+            <div class="section-heading">
+                <h2>DAL PADDOCK</h2>
+                <a class="text-link" href="Ultime%20stagioni.html">Tutte le notizie →</a>
             </div>
-            <p>Il Gran Premio del Messico 2026 ha incoronato una nuova leggenda del motorsport mondiale: Andrea Kimi Antonelli è Campione del Mondo di Formula 1. Con un terzo posto magistrale sul circuito dell'Autódromo Hermanos Rodríguez a Città del Messico, il ventenne pilota bolognese della Mercedes ha chiuso matematicamente la contesa per il titolo iridato con ben quattro gare di anticipo rispetto al termine della stagione, toccando quota 380 punti in classifica generale e rendendosi ormai irraggiungibile per chiunque.</p>
-            <p>A soli 20 anni, 2 mesi e 7 giorni, Antonelli entra nella leggenda riscrivendo il libro dei record della Formula 1: diventa infatti il più giovane Campione del Mondo nella storia della massima categoria automobilistica, strappando il precedente primato di precocità che apparteneva a Sebastian Vettel dal 2010 (conquistato ad Abu Dhabi a 23 anni e 134 giorni). Ma non è tutto: il trionfo di Kimi Antonelli segna uno spartiacque indimenticabile anche per l'Italia del motorsport. Un pilota italiano torna a vincere il Campionato Mondiale Piloti di Formula 1 dopo ben 73 anni di attesa: l'ultimo connazionale a riuscirci era stato il leggendario Alberto Ascari nel lontano 1953 al volante della Ferrari.</p>
-            <p>Alla sua prima stagione da prima guida della scuderia di Brackley, al debutto della rivoluzionaria era regolamentare 2026 (caratterizzata da power unit 50% elettriche, carburanti 100% sostenibili e aerodinamica attiva), Antonelli ha guidato con la maturità di un veterano e la velocità pura dei fuoriclasse assoluti. Visibilmente commosso sul podio messicano, avvolto nella bandiera tricolore italiana tra gli applausi calorosi dei rivali Max Verstappen e Lewis Hamilton, Kimi ha dedicato la vittoria alla sua famiglia, al team Mercedes e a tutti i tifosi italiani: <em>"È un sogno che parte da lontano, da quando ero un bambino sui kart. Abbiamo lavorato durissimo per adattarci al nuovo regolamento e la macchina è stata eccezionale. Dedico questo mondiale a tutta l'Italia che non ha mai smesso di sostenermi"</em>.</p>
-            <p class="source-attribution">Fonte dati e notizie: Rielaborazione redazionale autonoma su comunicati FIA e Formula1.com ai sensi del diritto di cronaca (Art. 65 L. 633/1941).</p>
+            <div class="story-grid">
+                <article class="story-card">
+                    <a class="story-photo" href="#analisi">
+                        <img src="gp-messico-2026.png" alt="Il Gran Premio del Messico 2026">
+                    </a>
+                    <div class="story-card-copy">
+                        <span class="eyebrow">NOTIZIE · 2 NOVEMBRE 2026</span>
+                        <h3><a href="#analisi">Antonelli nella storia: campione del mondo a 20 anni</a></h3>
+                        <p>Il terzo posto in Messico vale il titolo iridato con quattro gare d'anticipo.</p>
+                    </div>
+                </article>
+                <article class="story-card">
+                    <a class="story-photo" href="La%20nuova%20F1.html">
+                        <img src="F1-2026-monoposto-aerodinamica-attiva-4-780x470.png" alt="Monoposto di Formula 1 con aerodinamica attiva">
+                    </a>
+                    <div class="story-card-copy">
+                        <span class="eyebrow">TECNICA · 30 OTTOBRE 2026</span>
+                        <h3><a href="La%20nuova%20F1.html">Aerodinamica attiva: cosa cambia in pista</a></h3>
+                        <p>Le nuove monoposto e le soluzioni che stanno ridefinendo la guida.</p>
+                    </div>
+                </article>
+                <article class="story-card">
+                    <a class="story-photo" href="10-finali-f1.html">
+                        <img src="formula-1-2021-abu-dhabi-gara.png" alt="Una gara decisiva di Formula 1 ad Abu Dhabi">
+                    </a>
+                    <div class="story-card-copy">
+                        <span class="eyebrow">STORIA · 28 OTTOBRE 2026</span>
+                        <h3><a href="10-finali-f1.html">Quando un mondiale si decide all'ultima curva</a></h3>
+                        <p>Le gare che hanno trasformato una bandiera a scacchi in leggenda.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-            <h2>GP DEL MESSICO: TRIONFO VERSTAPPEN, FERRARI SUL PODIO TRA LE POLEMICHE</h2>
-            <h5>01 Novembre 2026</h5>
-            <img src="gp-messico-2026.png" alt="Gran Premio del Messico 2026" style="width:65%;" hspace="20">
-            <p>Una gara ad altissima tensione e ricca di colpi di scena ha animato il ventesimo appuntamento del Campionato Mondiale 2026 in Messico. A salire sul gradino più alto del podio è stato Max Verstappen, autore di una prestazione capolavoro per la Red Bull Racing. Scattato dalla quinta piazzola dello schieramento, il pilota olandese ha fatto valere tutta la sua classe e una perfetta gestione del degrado gomma in altura, conquistando la sua terza vittoria stagionale e fendedosi con grinta nel finale dal ritorno rabbioso della Ferrari di Lewis Hamilton, staccato di appena sette decimi sulla linea d'arrivo.</p>
-            <p>Se Verstappen ritrova il successo e sale al secondo posto della classifica piloti (261 punti), nel box della Ferrari il clima si è fatto rovente. Scattato dalla pole position, Hamilton ha avuto un contatto alla prima curva con il compagno di squadra Charles Leclerc: un ruota a ruota al limite che ha danneggiato l'ala anteriore della vettura del monegasco, costringendolo a una corsa in rimonta conclusa al quarto posto. Nel dopogara non sono mancate le scintille, con Hamilton che ha rimproverato apertamente a Leclerc il mancato rispetto dei patti concordati prima della partenza, mentre Leclerc ha difeso la propria traiettoria sostenendo di non aver avuto spazio.</p>
-            <p>Nel Mondiale Costruttori, intanto, la Mercedes compie un passo decisivo verso il titolo mondiale con 639 punti, allungando nettamente sulla Ferrari ferma a quota 504 punti e sulla Red Bull a 380 punti.</p>
-            <p class="source-attribution">Fonte dati e notizie: Rielaborazione redazionale autonoma su comunicati FIA e Formula1.com ai sensi del diritto di cronaca (Art. 65 L. 633/1941).</p>
+        <section class="home-data-grid" id="classifica">
+            <section class="panel standings-panel">
+                <div class="section-heading">
+                    <h2>CLASSIFICA PILOTI</h2>
+                    <span class="eyebrow">2026 · GP 20/24</span>
+                </div>
+                <div class="table-scroll">
+                    <table>
+                        <thead><tr><th>POS</th><th>PILOTA</th><th>SCUDERIA</th><th>PT</th></tr></thead>
+                        <tbody>
+                            <tr class="champion-row"><td>1</td><td>A. K. Antonelli</td><td>Mercedes</td><td>380</td></tr>
+                            <tr><td>2</td><td>M. Verstappen</td><td>Red Bull</td><td>261</td></tr>
+                            <tr><td>3</td><td>L. Hamilton</td><td>Ferrari</td><td>259</td></tr>
+                            <tr><td>4</td><td>G. Russell</td><td>Mercedes</td><td>250</td></tr>
+                            <tr><td>5</td><td>C. Leclerc</td><td>Ferrari</td><td>245</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a class="text-link" href="Calendario%202026.html">Classifica completa →</a>
+            </section>
 
-            <h2>VERSO IL BRASILE: LA SFIDA PER IL SECONDO POSTO È APERTA</h2>
-            <h5>02 Novembre 2026</h5>
-            <p>Con il titolo piloti ormai saldamente nelle mani di Andrea Kimi Antonelli, il circus della Formula 1 non si ferma e si sposta immediatamente verso il leggendario circuito di Interlagos per il Gran Premio di San Paolo (Brasile). Mancano sole quattro gare alla bandiera a scacchi della stagione (Brasile, Las Vegas, Qatar e Abu Dhabi) e la lotta per la piazza d'onore mondiale è più aperta che mai: Verstappen (261 pt), Hamilton (259 pt), Russell (250 pt) e Leclerc (245 pt) sono racchiusi in appena 16 punti in una battaglia senza esclusione di colpi tra Red Bull, Ferrari e Mercedes.</p>
+            <section class="panel calendar-panel">
+                <div class="section-heading">
+                    <h2>CALENDARIO</h2>
+                    <a class="text-link" href="Calendario%202026.html">Tutte le gare →</a>
+                </div>
+                <ol class="calendar-list">
+                    <li><span class="race-date">06 NOV</span><div><strong>Gran Premio di San Paolo</strong><span>Interlagos · Sprint</span></div></li>
+                    <li><span class="race-date">20 NOV</span><div><strong>Gran Premio di Las Vegas</strong><span>Las Vegas Strip Circuit</span></div></li>
+                    <li><span class="race-date">29 NOV</span><div><strong>Gran Premio del Qatar</strong><span>Lusail International Circuit</span></div></li>
+                    <li><span class="race-date">06 DIC</span><div><strong>Gran Premio di Abu Dhabi</strong><span>Yas Marina Circuit</span></div></li>
+                </ol>
+            </section>
+        </section>
 
-            <h2>BRASILE: WEEKEND SPRINT - TUTTO APERTO PER IL VICE-CAMPIONATO</h2>
-            <h5>02 Novembre 2026</h5>
-            <p>Il Gran Premio di San Paolo 2026 si preannuncia come uno degli appuntamenti più elettrizzanti della stagione. Interlagos ospita questo fine settimana un format Sprint, con la mini-gara sabato mattina a precedere le qualifiche ufficiali. La lotta per il secondo posto nella classifica Piloti è serratissima: appena 16 punti separano i quattro contendenti — Verstappen (261), Hamilton (259), Russell (250) e Leclerc (245) — in un testa a testa che potrebbe ribaltarsi in qualsiasi momento. Con tre appuntamenti ancora da disputare (Brasile, Las Vegas, Qatar e Abu Dhabi), ogni punto diventa prezioso. La pista di Interlagos, tradizionalmente mattatrice delle grandi rimonte, promette colpi di scena: la pioggia tropicale è sempre in agguato, il degrado gomme è elevato e il fattore altitudine riduce il carico aerodinamico. Il box McLaren osserva la bagarre con soddisfazione, consapevole che Lando Norris potrà difendere la propria posizione in classifica senza pressioni per il titolo, ormai in tasca al team per il secondo anno consecutivo nel Mondiale Costruttori.</p>
-            <p class="source-attribution">Fonte dati e notizie: Rielaborazione redazionale autonoma su comunicati FIA e Formula1.com ai sensi del diritto di cronaca (Art. 65 L. 633/1941).</p>
-      </article>
+        <section class="newsletter-panel" id="community">
+            <div>
+                <span class="eyebrow">PASSIONE SENZA PAUSE</span>
+                <h2>Fatto da appassionati,<br>per appassionati.</h2>
+                <p>Analisi, numeri e storie dal paddock. Ci vediamo al prossimo semaforo.</p>
+            </div>
+            <a class="newsletter-link" href="https://www.instagram.com/alessandromafodda/" target="_blank" rel="noopener noreferrer">Contatta la redazione <span aria-hidden="true">→</span></a>
+        </section>
+    </main>
 
-         <aside>
-                 <h3>Classifica piloti 2026</h3>
-                 <p style="font-size: 13px; margin-top: -10px; color: #555;"><i>Aggiornata al GP del Messico (Gara 20/24)</i></p>
-                 <table style="width:100%">
-                   <tr>
-                     <th>Pos</th>
-                     <th>Pilota</th> 
-                     <th>Punti</th>
-                   </tr>
-                   <tr style="background-color: #d4edda; font-weight: bold;">
-                     <td>1 (Campione)</td>
-                     <td>A. K. Antonelli (Mercedes)</td>
-                     <td>380</td>
-                   </tr>
-                   <tr>
-                     <td>2</td>
-                     <td>M. Verstappen (Red Bull)</td>
-                     <td>261</td>
-                   </tr>
-                   <tr>
-                     <td>3</td>
-                     <td>L. Hamilton (Ferrari)</td>
-                     <td>259</td>
-                   </tr>
-                   <tr>
-                     <td>4</td>
-                     <td>G. Russell (Mercedes)</td>
-                     <td>250</td>
-                   </tr>
-                   <tr>
-                     <td>5</td>
-                     <td>C. Leclerc (Ferrari)</td>
-                     <td>245</td>
-                   </tr>
-                   <tr>
-                     <td>6</td>
-                     <td>L. Norris (McLaren)</td>
-                     <td>221</td>
-                   </tr>
-                   <tr>
-                     <td>7</td>
-                     <td>O. Piastri (McLaren)</td>
-                     <td>144</td>
-                   </tr>
-                   <tr>
-                     <td>8</td>
-                     <td>I. Hadjar (Red Bull)</td>
-                     <td>107</td>
-                   </tr>
-                   <tr>
-                     <td>9</td>
-                     <td>L. Lawson (Racing Bulls)</td>
-                     <td>83</td>
-                   </tr>
-                   <tr>
-                     <td>10</td>
-                     <td>P. Gasly (Alpine)</td>
-                     <td>42</td>
-                   </tr>
-                   <tr>
-                     <td>11</td>
-                     <td>F. Alonso (Aston Martin)</td>
-                     <td>36</td>
-                   </tr>
-                   <tr>
-                     <td>12</td>
-                     <td>G. Bortoleto (Audi)</td>
-                     <td>28</td>
-                   </tr>
-                   <tr>
-                     <td>13</td>
-                     <td>A. Albon (Williams)</td>
-                     <td>24</td>
-                   </tr>
-                   <tr>
-                     <td>14</td>
-                     <td>E. Ocon (Haas)</td>
-                     <td>18</td>
-                   </tr>
-                   <tr>
-                     <td>15</td>
-                     <td>C. Sainz (Williams)</td>
-                     <td>16</td>
-                   </tr>
-                   <tr>
-                     <td>16</td>
-                     <td>O. Bearman (Haas)</td>
-                     <td>12</td>
-                   </tr>
-                   <tr>
-                     <td>17</td>
-                     <td>Y. Tsunoda (Racing Bulls)</td>
-                     <td>10</td>
-                   </tr>
-                   <tr>
-                     <td>18</td>
-                     <td>N. Hülkenberg (Audi)</td>
-                     <td>8</td>
-                   </tr>
-                   <tr>
-                     <td>19</td>
-                     <td>L. Stroll (Aston Martin)</td>
-                     <td>6</td>
-                   </tr>
-                   <tr>
-                     <td>20</td>
-                     <td>V. Bottas (Cadillac)</td>
-                     <td>2</td>
-                   </tr>
-                 </table>
-
-                 <h3>Classifica costruttori 2026</h3>
-                 <p style="font-size: 13px; margin-top: -10px; color: #555;"><i>Aggiornata al GP del Messico</i></p>
-                 <table style="width:100%">
-                   <tr>
-                     <th>Pos</th>
-                     <th>Scuderia</th> 
-                     <th>Punti</th>
-                   </tr>
-                   <tr style="background-color: #e8f4f8; font-weight: bold;">
-                     <td>1</td>
-                     <td>Mercedes</td>
-                     <td>639</td>
-                   </tr>
-                   <tr>
-                     <td>2</td>
-                     <td>Ferrari</td>
-                     <td>504</td>
-                   </tr>
-                   <tr>
-                     <td>3</td>
-                     <td>Red Bull Racing</td>
-                     <td>380</td>
-                   </tr>
-                   <tr>
-                     <td>4</td>
-                     <td>McLaren</td>
-                     <td>371</td>
-                   </tr>
-                   <tr>
-                     <td>5</td>
-                     <td>Racing Bulls</td>
-                     <td>93</td>
-                   </tr>
-                   <tr>
-                     <td>6</td>
-                     <td>Alpine</td>
-                     <td>42</td>
-                   </tr>
-                   <tr>
-                     <td>7</td>
-                     <td>Aston Martin</td>
-                     <td>42</td>
-                   </tr>
-                   <tr>
-                     <td>8</td>
-                     <td>Williams</td>
-                     <td>40</td>
-                   </tr>
-                   <tr>
-                     <td>9</td>
-                     <td>Audi F1 Team</td>
-                     <td>36</td>
-                   </tr>
-                   <tr>
-                     <td>10</td>
-                     <td>Haas F1 Team</td>
-                     <td>30</td>
-                   </tr>
-                   <tr>
-                     <td>11</td>
-                     <td>Cadillac F1 Team</td>
-                     <td>2</td>
-                   </tr>
-                 </table>
-
-                 <h3 style="margin-top: 35px;">Prossimo Gran Premio</h3>
-                 <div style="background-color: #f7f7f7; border: 1px solid #ccc; padding: 10px; border-radius: 6px; text-align: center;">
-                   <h4 style="margin: 5px 0; color: #d00000;">GP del Brasile (Interlagos)</h4>
-                   <p style="margin: 3px 0; font-size: 13px;"><b>Data:</b> 06-08 Novembre 2026</p>
-                   <p style="margin: 3px 0; font-size: 13px;"><b>Gara:</b> Domenica ore 18:00 (Sky / NOW)</p>
-                   <img src="Brasile_interlagos_map_mappa.png" alt="Mappa Circuito Brasile Interlagos" style="width: 90%; margin-top: 8px; border-radius: 4px;">
-                 </div>
-          </aside>
-
-            <footer>
-     <div class="footer-disclaimer">
-         <p><b>Disclaimer di Non Affiliazione:</b> Questo sito è un progetto didattico e amatoriale indipendente senza scopo di lucro, realizzato per fini educativi e di cronaca sportiva. Non è in alcun modo affiliato, associato, autorizzato, sponsorizzato o approvato da <b>Formula One Licensing B.V.</b>, <b>Formula One Management</b>, dalla <b>FIA (Fédération Internationale de l'Automobile)</b> o da alcuna scuderia, pilota o sponsor del campionato.</p>
-         <p>I marchi registrati <i>F1</i>, <i>FORMULA 1</i>, <i>FORMULA ONE</i>, <i>FIA FORMULA ONE WORLD CHAMPIONSHIP</i>, <i>GRAND PRIX</i> e relativi loghi e denominazioni appartengono ai rispettivi titolari e sono utilizzati unicamente a scopo identificativo, descrittivo e di cronaca sportiva ai sensi dell'art. 21 D.Lgs. 30/2005 e dell'art. 65 e 70 L. 633/1941.</p>
-         <p><a href="Note-Legali.html" style="color: #ff9999; font-weight: bold; text-decoration: underline;">Note Legali, Policy DMCA / Notice &amp; Takedown e Crediti Multimediali</a></p>
-     </div>
-     <address style="margin-top: 15px; border-top: 1px solid #333; padding-top: 10px;">
-         Studente al primo anno del corso di laurea in Ingegneria Informatica ed Elettronica presso l'Università degli Studi di Messina<br>
-         Autore del progetto: <a href="https://www.instagram.com/alessandromafodda/" target="_blank">Alessandro Mafodda</a>
-     </address>
-  </footer>
-
- </body>
-
- </html>
+    <footer class="home-footer">
+        <div class="footer-brand">
+            <a class="home-brand" href="index.html"><img src="f1_logo.png" alt=""><span>PARCO CHIUSO</span></a>
+            <p>Blog amatoriale sulla Formula 1. Questo sito non è affiliato, sponsorizzato o approvato da Formula 1, dalla FIA o da alcuna scuderia.</p>
+            <p>Progetto e contenuti di <a href="https://www.instagram.com/alessandromafodda/" target="_blank" rel="noopener noreferrer">Alessandro Mafodda</a>. Foto e altri contenuti sono attribuiti nelle rispettive pagine.</p>
+            <p><a href="Note-Legali.html">Note legali, policy DMCA e crediti multimediali</a></p>
+        </div>
+        <div class="footer-links">
+            <div><span class="eyebrow">SEZIONI</span><a href="index.html#notizie">Notizie</a><a href="index.html#analisi">Analisi</a><a href="Calendario%202026.html">Calendario</a></div>
+            <div><span class="eyebrow">REDAZIONE</span><a href="index.html#community">Chi siamo</a><a href="https://www.instagram.com/alessandromafodda/" target="_blank" rel="noopener noreferrer">Contatti</a></div>
+        </div>
+    </footer>
+</body>
+</html>
