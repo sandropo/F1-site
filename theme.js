@@ -104,6 +104,17 @@
       return;
     }
 
+    function loadChatWidget() {
+      if (document.querySelector('script[src="f1-chat.js"]')) {
+        return;
+      }
+
+      var script = document.createElement("script");
+      script.src = "f1-chat.js";
+      script.defer = true;
+      document.head.appendChild(script);
+    }
+
     var currentPath = decodeURIComponent(window.location.pathname).toLowerCase();
     var links = menu.querySelectorAll("a[href]");
     var currentLink = null;
@@ -137,10 +148,12 @@
       addThemeSwitch();
       addNavigationToggle();
       highlightCurrentNavigationLink();
+      loadChatWidget();
     }, { once: true });
   } else {
     addThemeSwitch();
     addNavigationToggle();
     highlightCurrentNavigationLink();
+    loadChatWidget();
   }
 })();
