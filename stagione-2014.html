@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2014</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,7 +42,33 @@
         <h2>SINTESI DELLA STAGIONE 2014 - IL TRIONFO DI LEWIS HAMILTON</h2>
         <h5>Era Turbo Ibrida • 19 Gran Premi disputati</h5>
         
-        <img src="media/season-2014.jpg" alt="Stagione 2014" style="width: 55%; margin-bottom: 15px;">
+        <img src="media/season-2014.jpg" alt="Stagione 2014" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2014">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2014">Mercedes W05 Hybrid</h3>
+                <span>2014 - Mercedes AMG Petronas</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer"
+                src="media/cars/2014-mercedes-w05.glb"
+                alt="Modello 3D della Mercedes W05 Hybrid"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
         
         <p>Il 2014 ha segnato l'inizio della rivoluzione dei motori V6 Turbo Ibridi da 1.6 litri con doppio recupero di energia (MGU-K e MGU-H). La Mercedes ha progettato una power unit di gran lunga superiore alla concorrenza, aprendo un ciclo di dominio senza precedenti con 16 vittorie su 19 gare. Lewis Hamilton ha conquistato il suo secondo titolo mondiale dopo quello del 2008, battendo il compagno Nico Rosberg nella finale a punti doppi di Abu Dhabi.</p>
 

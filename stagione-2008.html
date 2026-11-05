@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2008</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,7 +42,33 @@
         <h2>SINTESI DELLA STAGIONE 2008 - IL TRIONFO DI LEWIS HAMILTON</h2>
         <h5>Era V8 Aspirati • 18 Gran Premi disputati</h5>
         
-        <img src="media/season-2008.jpg" alt="Stagione 2008" style="width: 55%; margin-bottom: 15px;">
+        <img src="media/season-2008.jpg" alt="Stagione 2008" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2008">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2008">McLaren MP4-23</h3>
+                <span>2008 - Vodafone McLaren Mercedes</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer"
+                src="media/cars/2008-mclaren-mp4-23.glb"
+                alt="Modello 3D della McLaren MP4-23"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
         
         <p>Il Mondiale 2008 è stato una montagna russa emotiva tra Lewis Hamilton (McLaren) e Felipe Massa (Ferrari). La stagione ha visto gare leggendarie come il diluvio di Silverstone (dominato da Hamilton con oltre un minuto di vantaggio) e la prima gara notturna nella storia della F1 a Singapore, segnata dal celebre 'Crashgate' di Nelson Piquet Jr.</p>
 

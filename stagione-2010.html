@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2010</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,7 +42,33 @@
         <h2>SINTESI DELLA STAGIONE 2010 - IL TRIONFO DI SEBASTIAN VETTEL</h2>
         <h5>Era V8 Aspirati • 19 Gran Premi disputati</h5>
         
-        <img src="media/season-2010.jpg" alt="Stagione 2010" style="width: 55%; margin-bottom: 15px;">
+        <img src="media/season-2010.jpg" alt="Stagione 2010" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2010">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2010">Red Bull RB6</h3>
+                <span>2010 - Red Bull Racing</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer"
+                src="media/cars/2010-red-bull-rb6.glb"
+                alt="Modello 3D della Red Bull RB6"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
         
         <p>Il 2010 è considerata una delle annate più equilibrate e avvincenti di sempre. Con il divieto dei rifornimenti di carburante in gara e il debutto di Fernando Alonso in Ferrari, cinque piloti hanno lottato per il titolo fino alle battute finali. Sebastian Vettel, che non era mai stato in testa alla classifica durante tutta la stagione, ha conquistato la vetta proprio all'ultimo Gran Premio.</p>
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2026</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,7 +42,33 @@
         <h2>SINTESI DELLA STAGIONE 2026 - IL TRIONFO DI ANDREA KIMI ANTONELLI</h2>
         <h5>Nuova Era Regolamentare • 24 Gran Premi disputati</h5>
         
-        <img src="media/season-2026.jpg" alt="Stagione 2026" style="width: 55%; margin-bottom: 15px;">
+        <img src="media/season-2026.jpg" alt="Stagione 2026" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2026">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2026">Mercedes W17</h3>
+                <span>2026 - Mercedes-AMG Petronas</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer"
+                src="media/cars/2026-mercedes-w17.glb"
+                alt="Modello 3D della Mercedes W17"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
         
         <p>Il Mondiale 2026 ha inaugurato una rivoluzione epocale nella storia della Formula 1 con il debutto delle nuove monoposto agili, leggere (-30 kg) e dotate di power unit ibride con ripartizione paritaria al 50% tra motore termico (400 kW) ed elettrico (350 kW), alimentate da carburanti al 100% sostenibili. L'aerodinamica mobile attiva (con le modalità Z-Mode ad alto carico e X-Mode a basso drag) ha sostituito il DRS tradizionale, mentre il Manual Override ha aperto scenari tattici inediti nei sorpassi sui rettilinei. In questo scenario pionieristico e competitivo, la Mercedes ha interpretato meglio di chiunque altro le nuove regole con la sua power unit all'avanguardia. A cogliere l'occasione storica è stato il giovane talento italiano Andrea Kimi Antonelli, capace di dominare la prima parte del campionato e resistere con freddezza alla rimonta dei veterani Verstappen, Hamilton e Russell.</p>
 

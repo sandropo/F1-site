@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2006</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,8 +42,34 @@
         <h2>SINTESI DELLA STAGIONE 2006 - IL TRIONFO DI FERNANDO ALONSO</h2>
         <h5>Era V8 Aspirati • 18 Gran Premi disputati</h5>
         
-        <img src="media/season-2006.jpg" alt="Stagione 2006" style="width: 55%; margin-bottom: 15px;">
-        
+        <img src="media/season-2006.jpg" alt="Stagione 2006" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2006">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2006">Renault R26</h3>
+                <span>2006 - Renault F1 Team</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer season-car3d-viewer--light"
+                src="media/cars/2006-renault-r26.glb?v=supplied-renault-livery"
+                alt="Modello 3D della Renault R26"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
+
         <p>Il 2006 ha segnato il debutto dei motori V8 da 2.4 litri e l'ultimo grande duello tra il re in carica Michael Schumacher e l'astro nascente Fernando Alonso. Tra innovazioni tecniche come il mass damper della Renault e duelli al cardiopalma da Imola a Suzuka, Alonso e la Renault si sono aggiudicati entrambi i titoli mondiali.</p>
 
         <div class="stat-box" style="clear: both; margin-top: 20px;">

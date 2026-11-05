@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2019</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,7 +42,33 @@
         <h2>SINTESI DELLA STAGIONE 2019 - IL TRIONFO DI LEWIS HAMILTON</h2>
         <h5>Era Turbo Ibrida • 21 Gran Premi disputati</h5>
         
-        <img src="media/season-2019.jpg" alt="Stagione 2019" style="width: 55%; margin-bottom: 15px;">
+        <img src="media/season-2019.jpg" alt="Stagione 2019" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2019">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2019">Mercedes-AMG F1 W10</h3>
+                <span>2019 - Mercedes-AMG Petronas</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer"
+                src="media/cars/2019-mercedes-w10.glb"
+                alt="Modello 3D della Mercedes-AMG F1 W10"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
         
         <p>Il 2019 ha visto la Mercedes centrare lo storico record di sei doppiette consecutive piloti-costruttori, con Lewis Hamilton impeccabile nel gestire le gare e conquistare il suo 6° titolo. La stagione è stata illuminata dall'esplosione dei due giovani fenomeni Charles Leclerc (due vittorie consecutive a Spa e a Monza in Ferrari) e Max Verstappen con la Red Bull motorizzata Honda.</p>
 

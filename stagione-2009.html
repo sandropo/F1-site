@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <title>Formula 1 - Campionato Mondiale 2009</title>
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="F1.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script src="theme.js"></script>
 </head>
 <body>
@@ -41,7 +42,33 @@
         <h2>SINTESI DELLA STAGIONE 2009 - IL TRIONFO DI JENSON BUTTON</h2>
         <h5>Era V8 Aspirati • 17 Gran Premi disputati</h5>
         
-        <img src="media/season-2009.jpg" alt="Stagione 2009" style="width: 55%; margin-bottom: 15px;">
+        <img src="media/season-2009.jpg" alt="Stagione 2009" loading="eager" fetchpriority="high" decoding="async" style="width: 55%; margin-bottom: 15px;">
+
+        <section class="season-car3d" aria-labelledby="season-car3d-title-2009">
+            <div class="season-car3d-heading">
+                <h3 id="season-car3d-title-2009">Brawn BGP 001</h3>
+                <span>2009 - Brawn GP</span>
+            </div>
+            <model-viewer
+                class="season-car3d-viewer"
+                src="media/cars/2009-brawn-bgp001.glb"
+                alt="Modello 3D della Brawn BGP 001"
+                loading="lazy"
+                reveal="auto"
+                camera-controls
+                auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
+                camera-orbit="45deg 70deg auto"
+                field-of-view="28deg"
+                min-field-of-view="20deg"
+                max-field-of-view="38deg"
+                shadow-intensity="1.2"
+                exposure="1.05"
+                touch-action="pan-y">
+            </model-viewer>
+            <p class="season-car3d-note">Trascina per ruotare il modello - scroll o pinch per zoomare.</p>
+        </section>
         
         <p>Il 2009 ha visto una rivoluzione regolamentare con ali anteriori larghe, ali posteriori alte e strette, gomme slick dopo undici anni di scanalate e l'introduzione del doppio diffusore. Ross Brawn ha trovato la soluzione geniale e Jenson Button ha vinto 6 delle prime 7 gare, resistendo poi al prepotente ritorno della Red Bull di Sebastian Vettel.</p>
 
