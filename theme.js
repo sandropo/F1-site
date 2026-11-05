@@ -98,21 +98,20 @@
     });
   }
 
+  function loadChatWidget() {
+    if (document.querySelector('script[src="f1-chat.js"]')) {
+      return;
+    }
+
+    var script = document.createElement("script");
+    script.src = "f1-chat.js";
+    document.head.appendChild(script);
+  }
+
   function highlightCurrentNavigationLink() {
     var menu = document.querySelector("menu");
     if (!menu) {
       return;
-    }
-
-    function loadChatWidget() {
-      if (document.querySelector('script[src="f1-chat.js"]')) {
-        return;
-      }
-
-      var script = document.createElement("script");
-      script.src = "f1-chat.js";
-      script.defer = true;
-      document.head.appendChild(script);
     }
 
     var currentPath = decodeURIComponent(window.location.pathname).toLowerCase();
@@ -142,6 +141,8 @@
       currentLink.setAttribute("aria-current", "page");
     }
   }
+
+  loadChatWidget();
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function () {
