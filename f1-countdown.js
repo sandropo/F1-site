@@ -1,29 +1,28 @@
 (function () {
   var races = [
-    { name: "Australia", shortName: "GP d'Australia", start: "2026-03-06T00:00:00Z", end: "2026-03-08T23:59:59Z" },
-    { name: "Cina", shortName: "GP di Cina", start: "2026-03-13T00:00:00Z", end: "2026-03-15T23:59:59Z" },
-    { name: "Giappone", shortName: "GP del Giappone", start: "2026-03-27T00:00:00Z", end: "2026-03-29T23:59:59Z" },
-    { name: "Bahrain", shortName: "GP del Bahrain", start: "2026-04-10T00:00:00Z", end: "2026-04-12T23:59:59Z" },
-    { name: "Arabia Saudita", shortName: "GP dell'Arabia Saudita", start: "2026-04-17T00:00:00Z", end: "2026-04-19T23:59:59Z" },
-    { name: "Miami", shortName: "GP di Miami", start: "2026-05-01T00:00:00Z", end: "2026-05-03T23:59:59Z" },
-    { name: "Canada", shortName: "GP del Canada", start: "2026-05-22T00:00:00Z", end: "2026-05-24T23:59:59Z" },
-    { name: "Monaco", shortName: "GP di Monaco", start: "2026-06-05T00:00:00Z", end: "2026-06-07T23:59:59Z" },
-    { name: "Barcellona-Catalogna", shortName: "GP di Barcellona-Catalogna", start: "2026-06-12T00:00:00Z", end: "2026-06-14T23:59:59Z" },
-    { name: "Austria", shortName: "GP d'Austria", start: "2026-06-26T00:00:00Z", end: "2026-06-28T23:59:59Z" },
-    { name: "Gran Bretagna", shortName: "GP di Gran Bretagna", start: "2026-07-03T00:00:00Z", end: "2026-07-05T23:59:59Z" },
-    { name: "Belgio", shortName: "GP del Belgio", start: "2026-07-17T00:00:00Z", end: "2026-07-19T23:59:59Z" },
-    { name: "Ungheria", shortName: "GP d'Ungheria", start: "2026-07-24T00:00:00Z", end: "2026-07-26T23:59:59Z" },
-    { name: "Paesi Bassi", shortName: "GP dei Paesi Bassi", start: "2026-08-21T00:00:00Z", end: "2026-08-23T23:59:59Z" },
-    { name: "Italia", shortName: "GP d'Italia", start: "2026-09-04T00:00:00Z", end: "2026-09-06T23:59:59Z" },
-    { name: "Madrid", shortName: "GP di Madrid", start: "2026-09-11T00:00:00Z", end: "2026-09-13T23:59:59Z" },
-    { name: "Azerbaijan", shortName: "GP dell'Azerbaijan", start: "2026-09-25T00:00:00Z", end: "2026-09-27T23:59:59Z" },
-    { name: "Singapore", shortName: "GP di Singapore", start: "2026-10-09T00:00:00Z", end: "2026-10-11T23:59:59Z" },
-    { name: "Stati Uniti", shortName: "GP degli Stati Uniti", start: "2026-10-23T00:00:00Z", end: "2026-10-25T23:59:59Z" },
-    { name: "Messico", shortName: "GP del Messico", start: "2026-10-30T00:00:00Z", end: "2026-11-01T23:59:59Z" },
-    { name: "San Paolo", shortName: "GP di San Paolo", start: "2026-11-06T00:00:00Z", end: "2026-11-08T23:59:59Z" },
-    { name: "Las Vegas", shortName: "GP di Las Vegas", start: "2026-11-19T00:00:00Z", end: "2026-11-21T23:59:59Z" },
-    { name: "Qatar", shortName: "GP del Qatar", start: "2026-11-27T00:00:00Z", end: "2026-11-29T23:59:59Z" },
-    { name: "Abu Dhabi", shortName: "GP di Abu Dhabi", start: "2026-12-04T00:00:00Z", end: "2026-12-06T23:59:59Z" }
+    { name: "Australia", shortName: "GP d'Australia", fp1: "2026-03-06T02:30:00Z", weekendStart: "2026-03-06T00:00:00Z", end: "2026-03-08T23:59:59Z" },
+    { name: "Cina", shortName: "GP di Cina", fp1: "2026-03-13T03:30:00Z", weekendStart: "2026-03-13T00:00:00Z", end: "2026-03-15T23:59:59Z" },
+    { name: "Giappone", shortName: "GP del Giappone", fp1: "2026-03-27T02:30:00Z", weekendStart: "2026-03-27T00:00:00Z", end: "2026-03-29T23:59:59Z" },
+    { name: "Miami", shortName: "GP di Miami", fp1: "2026-05-01T16:30:00Z", weekendStart: "2026-05-01T00:00:00Z", end: "2026-05-03T23:59:59Z" },
+    { name: "Canada", shortName: "GP del Canada", fp1: "2026-05-22T16:30:00Z", weekendStart: "2026-05-22T00:00:00Z", end: "2026-05-24T23:59:59Z" },
+    { name: "Monaco", shortName: "GP di Monaco", fp1: "2026-06-05T11:30:00Z", weekendStart: "2026-06-05T00:00:00Z", end: "2026-06-07T23:59:59Z" },
+    { name: "Barcellona-Catalogna", shortName: "GP di Barcellona-Catalogna", fp1: "2026-06-12T11:30:00Z", weekendStart: "2026-06-12T00:00:00Z", end: "2026-06-14T23:59:59Z" },
+    { name: "Austria", shortName: "GP d'Austria", fp1: "2026-06-26T11:30:00Z", weekendStart: "2026-06-26T00:00:00Z", end: "2026-06-28T23:59:59Z" },
+    { name: "Gran Bretagna", shortName: "GP di Gran Bretagna", fp1: "2026-07-03T11:30:00Z", weekendStart: "2026-07-03T00:00:00Z", end: "2026-07-05T23:59:59Z" },
+    { name: "Belgio", shortName: "GP del Belgio", fp1: "2026-07-17T11:30:00Z", weekendStart: "2026-07-17T00:00:00Z", end: "2026-07-19T23:59:59Z" },
+    { name: "Ungheria", shortName: "GP d'Ungheria", fp1: "2026-07-24T11:30:00Z", weekendStart: "2026-07-24T00:00:00Z", end: "2026-07-26T23:59:59Z" },
+    { name: "Paesi Bassi", shortName: "GP dei Paesi Bassi", fp1: "2026-08-21T10:30:00Z", weekendStart: "2026-08-21T00:00:00Z", end: "2026-08-23T23:59:59Z" },
+    { name: "Italia", shortName: "GP d'Italia", fp1: "2026-09-04T10:30:00Z", weekendStart: "2026-09-04T00:00:00Z", end: "2026-09-06T23:59:59Z" },
+    { name: "Madrid", shortName: "GP di Madrid", fp1: "2026-09-11T11:30:00Z", weekendStart: "2026-09-11T00:00:00Z", end: "2026-09-13T23:59:59Z" },
+    { name: "Azerbaijan", shortName: "GP dell'Azerbaijan", fp1: "2026-09-25T08:30:00Z", weekendStart: "2026-09-24T00:00:00Z", end: "2026-09-26T23:59:59Z" },
+    { name: "Bahrain", shortName: "GP del Bahrain", fp1: "2026-10-02T11:30:00Z", weekendStart: "2026-10-02T00:00:00Z", end: "2026-10-04T23:59:59Z" },
+    { name: "Singapore", shortName: "GP di Singapore", fp1: "2026-10-09T09:30:00Z", weekendStart: "2026-10-09T00:00:00Z", end: "2026-10-11T23:59:59Z" },
+    { name: "Stati Uniti", shortName: "GP degli Stati Uniti", fp1: "2026-10-23T17:30:00Z", weekendStart: "2026-10-23T00:00:00Z", end: "2026-10-25T23:59:59Z" },
+    { name: "Messico", shortName: "GP del Messico", fp1: "2026-10-30T18:30:00Z", weekendStart: "2026-10-30T00:00:00Z", end: "2026-11-01T23:59:59Z" },
+    { name: "San Paolo", shortName: "GP di San Paolo", fp1: "2026-11-06T15:30:00Z", weekendStart: "2026-11-06T00:00:00Z", end: "2026-11-08T23:59:59Z" },
+    { name: "Las Vegas", shortName: "GP di Las Vegas", fp1: "2026-11-21T00:30:00Z", weekendStart: "2026-11-20T00:00:00Z", end: "2026-11-22T23:59:59Z" },
+    { name: "Qatar", shortName: "GP del Qatar", fp1: "2026-11-27T13:30:00Z", weekendStart: "2026-11-27T00:00:00Z", end: "2026-11-29T23:59:59Z" },
+    { name: "Abu Dhabi", shortName: "GP di Abu Dhabi", fp1: "2026-12-04T09:30:00Z", weekendStart: "2026-12-04T00:00:00Z", end: "2026-12-06T23:59:59Z" }
   ];
 
   function pad(value) {
@@ -33,10 +32,10 @@
   function update() {
     var now = new Date();
     var activeRace = races.find(function (race) {
-      return now >= new Date(race.start) && now <= new Date(race.end);
+      return now >= new Date(race.fp1) && now <= new Date(race.end);
     });
     var nextRace = races.find(function (race) {
-      return now < new Date(race.start);
+      return now < new Date(race.fp1);
     });
     var state = activeRace ? "live" : nextRace ? "upcoming" : "complete";
     var race = activeRace || nextRace || races[races.length - 1];
@@ -54,7 +53,7 @@
       dateLabel.textContent = activeRace
         ? "Weekend in corso"
         : nextRace
-          ? "Weekend del " + new Intl.DateTimeFormat("it-IT", { day: "numeric", month: "long" }).format(new Date(nextRace.start))
+          ? "FP1: " + new Intl.DateTimeFormat("it-IT", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Rome" }).format(new Date(nextRace.fp1))
           : "Stagione 2026 conclusa";
     }
 
@@ -69,7 +68,7 @@
       status.textContent = state === "live"
         ? "Weekend di gara in corso"
         : state === "upcoming"
-          ? "Countdown al prossimo Gran Premio"
+          ? "Countdown alla prima sessione di prove libere"
           : "La stagione 2026 è terminata";
       status.classList.toggle("is-live", state === "live");
     }
@@ -86,7 +85,7 @@
       return;
     }
 
-    var remaining = Math.max(0, new Date(nextRace.start).getTime() - now.getTime());
+    var remaining = Math.max(0, new Date(nextRace.fp1).getTime() - now.getTime());
     var totalSeconds = Math.floor(remaining / 1000);
     var days = Math.floor(totalSeconds / 86400);
     var hours = Math.floor((totalSeconds % 86400) / 3600);
