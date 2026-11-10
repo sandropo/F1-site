@@ -214,6 +214,10 @@ article p {
   font-size: 15.5px;
   color: #2b2b2b;
   margin: 0 0 1.1em;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 article h2 {
@@ -797,6 +801,201 @@ video {
 
 .results-table tr:nth-child(even) {
   background-color: #ffffff;
+}
+
+/* ── Feeder Ladder Component ── */
+.feeder-ladder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 28px;
+  padding: 14px;
+  background: var(--page-surface-raised, #f6f5f2);
+  border: 1px solid var(--page-border, #deddd8);
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feeder-step {
+  flex: 1 1 120px;
+  padding: 10px 12px;
+  background: var(--page-surface, #ffffff);
+  border: 1px solid var(--page-border, #e0e0e0);
+  border-radius: 6px;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.feeder-step:hover {
+  transform: translateY(-2px);
+  border-color: var(--page-red, #CC0000);
+}
+
+.feeder-step.active-step {
+  border-top: 3px solid var(--page-red, #CC0000);
+  background: color-mix(in srgb, var(--page-red, #CC0000) 8%, var(--page-surface, #ffffff));
+}
+
+.feeder-step .step-tier {
+  font: 700 11px/1.2 'Barlow Condensed', sans-serif;
+  color: var(--page-red, #CC0000);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.feeder-step .step-name {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 3px 0 2px;
+  color: var(--page-text, #111);
+}
+
+.feeder-step .step-age {
+  font-size: 11px;
+  color: var(--page-muted, #777);
+}
+
+/* ── Messinese Karting Hub & Spotlight ── */
+.karting-hub {
+  background: var(--page-surface, #ffffff);
+  border: 1px solid var(--page-border, #e0e0e0);
+  border-top: 4px solid var(--page-red, #CC0000);
+  border-radius: 10px;
+  padding: clamp(18px, 2.5vw, 28px);
+  margin: 28px 0;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.karting-tag {
+  display: inline-block;
+  background: var(--page-red, #CC0000);
+  color: #ffffff;
+  font: 700 11px/1.2 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.6px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.track-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+
+.track-spec-card {
+  padding: 14px 16px;
+  background: var(--page-surface-raised, #f8f8f8);
+  border: 1px solid var(--page-border, #e4e4e4);
+  border-radius: 6px;
+  border-left: 3px solid var(--page-red, #CC0000);
+}
+
+.track-spec-card h4 {
+  margin: 0 0 6px;
+  font: 700 13px 'Barlow Condensed', sans-serif;
+  color: var(--page-red, #CC0000);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.track-spec-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--page-text, #333);
+}
+
+/* ── Driver Spotlight Card: Mario Barbaro ── */
+.driver-spotlight-card {
+  background: var(--page-surface, #ffffff);
+  border: 2px solid var(--page-red, #CC0000);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 24px 0;
+  box-shadow: 0 8px 24px rgba(204, 0, 0, 0.1);
+}
+
+.driver-header-banner {
+  background: linear-gradient(135deg, #17191e 0%, #262932 100%);
+  color: #ffffff;
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-bottom: 3px solid var(--page-red, #CC0000);
+}
+
+.driver-identity h3 {
+  margin: 0;
+  font: italic 700 26px/1 'Barlow Condensed', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.driver-identity p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #ff9999;
+  font-weight: 600;
+}
+
+.driver-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 18px 22px;
+  background: var(--page-surface-raised, #fcfcfc);
+  border-bottom: 1px solid var(--page-border, #eee);
+}
+
+.driver-stat-box {
+  padding: 12px 14px;
+  background: var(--page-surface, #ffffff);
+  border: 1px solid var(--page-border, #e5e5e5);
+  border-radius: 6px;
+  text-align: center;
+  border-top: 3px solid var(--page-red, #CC0000);
+}
+
+.driver-stat-box strong {
+  display: block;
+  font: 700 20px/1.1 'Barlow Condensed', sans-serif;
+  color: var(--page-red, #CC0000);
+}
+
+.driver-stat-box span {
+  font-size: 11px;
+  color: var(--page-muted, #666);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.driver-body {
+  padding: 20px 22px;
+}
+
+.driver-quote-box {
+  background: color-mix(in srgb, var(--page-red, #CC0000) 6%, var(--page-surface, #ffffff));
+  border-left: 4px solid var(--page-red, #CC0000);
+  border-radius: 0 6px 6px 0;
+  padding: 14px 18px;
+  margin: 18px 0;
+  font-style: italic;
+  font-size: 13.5px;
+  color: var(--page-text, #333);
+}
+
+@media (max-width: 650px) {
+  .driver-stats-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 .results-table tr:hover {
@@ -1405,11 +1604,16 @@ html[data-theme="light"] body.home-page {
   text-transform: uppercase;
 }
 
+/* ── Lead Story ── */
 .home-page .lead-story p {
   max-width: 520px;
   margin: 0 0 16px;
   color: #dedfe2;
   font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .home-page .story-byline {
@@ -1633,6 +1837,10 @@ html[data-theme="light"] body.home-page {
   color: var(--home-muted);
   font-size: 12px;
   line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .home-page .home-data-grid {
@@ -2624,6 +2832,17 @@ body:not(.home-page) > article p {
   color: var(--page-text);
   font-size: 14px;
   line-height: 1.75;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+body:not(.home-page) > aside p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 body:not(.home-page) > article h5 {
@@ -2748,6 +2967,12 @@ body:not(.home-page) .news-card,
 body:not(.home-page) .season-card,
 body:not(.home-page) .finale-card,
 body:not(.home-page) .karting-section,
+body:not(.home-page) .karting-hub,
+body:not(.home-page) .driver-spotlight-card,
+body:not(.home-page) .track-spec-card,
+body:not(.home-page) .driver-stat-box,
+body:not(.home-page) .feeder-step,
+body:not(.home-page) .feeder-ladder,
 body:not(.home-page) .karting-profile-card,
 body:not(.home-page) .nav-season-bar,
 body:not(.home-page) .stat-box,
@@ -2757,6 +2982,42 @@ body:not(.home-page) .takedown-box {
   background: var(--page-surface);
   color: var(--page-text);
   box-shadow: none;
+}
+
+body:not(.home-page) .driver-quote-box {
+  background: var(--page-surface-raised);
+  border-left-color: var(--page-red);
+  color: var(--page-text);
+}
+
+body:not(.home-page) .driver-stats-row {
+  background: var(--page-surface-raised);
+  border-bottom-color: var(--page-border);
+}
+
+body:not(.home-page) .track-spec-card {
+  background: var(--page-surface-raised);
+  border-color: var(--page-border);
+  border-left-color: var(--page-red);
+}
+
+body:not(.home-page) .track-spec-card p {
+  color: var(--page-muted);
+}
+
+body:not(.home-page) .feeder-step.active-step {
+  border-top-color: var(--page-red);
+  background: color-mix(in srgb, var(--page-red) 12%, var(--page-surface));
+}
+
+body:not(.home-page) .driver-stat-box {
+  background: var(--page-surface);
+  border-color: var(--page-border);
+  border-top-color: var(--page-red);
+}
+
+body:not(.home-page) .driver-stat-box strong {
+  color: var(--page-red);
 }
 
 body:not(.home-page) .recent-season,

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
@@ -7,6 +7,8 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
         <link rel="stylesheet" type="text/css" href="Albo d'oro.css">
         <link rel="stylesheet" type="text/css" href="F1.css">
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
@@ -1345,15 +1347,27 @@
               }
               
                   function calcolaDifferenza() {
-                      const nome1 = document.getElementById("nomePilota1").value;
-                      const punti1 = parseInt(document.getElementById("puntiPilota1").value);
-                      const nome2 = document.getElementById("nomePilota2").value;
-                      const punti2 = parseInt(document.getElementById("puntiPilota2").value);
+                      const nome1 = document.getElementById("nomePilota1").value.trim() || "Pilota 1";
+                      const punti1 = parseInt(document.getElementById("puntiPilota1").value, 10);
+                      const nome2 = document.getElementById("nomePilota2").value.trim() || "Pilota 2";
+                      const punti2 = parseInt(document.getElementById("puntiPilota2").value, 10);
           
-                      const differenza = punti1 - punti2;
+                      if (isNaN(punti1) || isNaN(punti2)) {
+                          document.getElementById("risultato").textContent = 
+                              "Inserisci un punteggio numerico valido per entrambi i piloti.";
+                          return;
+                      }
           
-                      document.getElementById("risultato").textContent = 
-                          `La differenza di punti tra ${nome1} e ${nome2} è di ${differenza} punti`;
+                      const diff = Math.abs(punti1 - punti2);
+                      const leader = punti1 > punti2 ? nome1 : (punti2 > punti1 ? nome2 : null);
+          
+                      if (leader) {
+                          document.getElementById("risultato").textContent = 
+                              `Il distacco tra ${nome1} e ${nome2} è di ${diff} punti (in vantaggio: ${leader}).`;
+                      } else {
+                          document.getElementById("risultato").textContent = 
+                              `${nome1} e ${nome2} sono a pari merito (${punti1} punti).`;
+                      }
                   }
 
           </script>

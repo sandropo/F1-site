@@ -207,6 +207,14 @@ aside h1 {
   margin-bottom: 16px;
 }
 
+/* ── Article Paragraphs ── */
+article p, aside p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 /* ── Article headings ── */
 h2 {
   margin-top: 35px;

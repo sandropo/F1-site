@@ -130,11 +130,20 @@ if (viewer) {
   });
   viewer.addEventListener("error", showFallback);
 
-  if (!customElements.get("model-viewer")) {
-    showFallback();
-  } else {
+  function startFallbackTimer() {
+    clearTimeout(fallbackTimer);
     fallbackTimer = window.setTimeout(() => {
       if (!viewer.loaded) showFallback();
-    }, 15000);
+    }, 20000);
+  }
+
+  if (customElements.get("model-viewer")) {
+    startFallbackTimer();
+  } else if (window.customElements && window.customElements.whenDefined) {
+    customElements.whenDefined("model-viewer").then(() => {
+      startFallbackTimer();
+    }).catch(showFallback);
+  } else {
+    startFallbackTimer();
   }
 }
